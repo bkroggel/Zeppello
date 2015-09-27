@@ -1,0 +1,53 @@
+/* 1.4. BLOG
+   ========================================================================== */
+
+.blog {
+  margin-bottom: 30px;
+}
+
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.col-height {
+  display: table-cell;
+  float: none;
+  height: 100%;
+}
+
+.blog-col {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.col-inner {
+  margin: 0 15px;
+  padding: 30px 0 30px;
+  border-top: 1px solid rgb(218, 218, 218);
+  margin-top: -30px;
+}
+
+.row .blog-col:nth-child(1) .col-inner {
+  border: none;
+}
+
+.btn-blog {
+  margin-top: 60px;
+}
+
+@media (min-width: 768px) {
+  .vertical-col-divider:nth-child(2n+0) {
+    border-left: 1px solid rgb(218, 218, 218);
+  }
+
+  .row .blog-col:nth-child(2) .col-inner {
+    border: none;
+  }
+
+  .col-inner {
+    padding: 100px 13% 100px;
+  }
+}

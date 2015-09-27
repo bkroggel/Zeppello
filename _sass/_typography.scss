@@ -1,0 +1,211 @@
+/* 0.2 FONTS
+   ========================================================================== */
+
+
+.nav>li>a,
+.dropdown a {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: black;
+  font-family: $primary-nav-font;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 3px 6px;
+  border: 2px solid white;
+}
+
+.nav>li>a:hover,
+.nav>li>a:active,
+.nav>li>a:visited,
+.nav>li:active,
+.nav .open>a, 
+.nav .open>a:focus,
+.nav .open>a:hover {
+  background-color: rgba(255, 255, 255, 0.0);
+}
+
+.nav>li>a:hover,
+.nav .open>a, 
+.nav .open>a:focus,
+.nav .open>a:hover {
+  border-color: black;
+  padding: 3px 6px;
+  line-height: 20px;
+  -webkit-transition: border-color 0.4s;
+  -moz-transition: border-color 0.4s;
+  transition: border-color 0.4s;
+}
+
+.dropdown-menu li a {
+  border: none;
+  padding: 5px 20px;
+}
+
+.dropdown-menu>li>a:hover {
+  background-color: black;
+  color: white;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.big-picture h1 {
+  font-family: $primary-nav-font;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  display: table;
+  margin: 0 auto;
+  line-height: 30px;
+}
+
+.section-header h3,
+.about > .section-header h3,
+.blog h3,
+h3.year-date,
+p.timePosted {
+  font-family: $primary-nav-font;
+  text-transform: uppercase;
+  color: rgba(109, 109, 109, 0.8);
+  font-size: 14px;
+  margin: 40px 0 10px;
+}
+
+h3.year-date {
+  margin: 0 0 30px;
+}
+
+p.timePosted {
+  margin: 20px 0 0;
+}
+
+.section-header h3 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.about h1,
+.footer h1 {
+  font-family: 'CormorantMedium';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;
+  margin: 0;
+}
+
+.about-italic h1,
+.footer-italic h1 {
+  font-family: 'CormorantBoldItalic';
+  font-weight: normal;
+  font-style: italic;
+}
+
+.footer h1 {
+  color: white;
+}
+
+.text p,
+.blog p,
+.work p,
+.twitter p {
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.85);
+  letter-spacing: 0.01em;
+}
+
+.blog p {
+  margin-bottom: 40px;
+}
+
+.twitter p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.work p {
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.blog h1,
+.work h1 {
+  font-family: 'CormorantMedium';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.work h1 {
+  margin-bottom: 20px;
+}
+
+.copyright h1 {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  margin: 15px 0 10px;
+}
+
+.footer--nav a {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  font-size: 15px;
+  list-style: none;
+  font-weight: 300;
+}
+
+.footer--nav li {
+  padding: 5px 0;
+}
+
+.footer--nav a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 786px) {
+  .big-picture h1 {
+    margin: 0;
+    line-height: 1.1;
+  }
+
+  .section-header h3 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .text p,
+  .blog p,
+  .work p,
+  .twitter p {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.85);
+    letter-spacing: 0.01em;
+  }
+
+  .twitter p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .work p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .work p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

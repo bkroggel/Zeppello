@@ -1,0 +1,23 @@
+/* 1.2 ABOUT
+   ========================================================================== */
+
+.about {
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+.about .cols:nth-child(odd) {
+  padding-left: 0;
+}
+
+.about .cols:nth-child(even) {
+  padding-right: 0;
+}
+
+@media (min-width: 768px) {
+  .about {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+  }
+}

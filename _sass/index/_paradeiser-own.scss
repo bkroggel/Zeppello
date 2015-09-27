@@ -1,0 +1,37 @@
+/* 1.1.1 PARADEISER
+   ========================================================================== */
+   
+#paradeiser-logo {
+  fill: rgb(68, 68, 68);
+  height: 40px;
+  width: 40px;
+  padding: 0;
+}
+
+.paradeiser {
+  background-color: rgba(255, 255, 255, 1.0);
+  height: 75px;
+}
+
+.paradeiser a {
+  font-family: 'Lato';
+}
+
+.paradeiser a.active,
+.paradeiser a:hover,
+.paradeiser .paradeiser_dropdown.active,
+.paradeiser .paradeiser_dropdown:hover {
+  background-color: rgba(255, 255, 255, 1.0);
+}
+
+.paradeiser ul {
+  top: 75px;
+}
+
+.paradeiser ul li {
+  background-color: rgb(54, 54, 54);
+}
+
+.paradeiser ul li:last-child a {
+  background-color: rgba(0, 0, 0, 0.6);
+}

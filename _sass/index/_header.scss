@@ -1,0 +1,123 @@
+/* ==========================================================================
+   1. SINGLESCROLLING PAGE
+   ========================================================================== */
+
+/* 1.1. BIG PICTURE | HEADER
+   ========================================================================== */
+
+.big-picture {
+  /*background: rgb(49, 54, 50);*/
+  background: url(../img/pexels.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  padding: 0;
+  /*height: 700px;*/
+  height: 100%;
+  overflow: hidden;
+  display: table;
+}
+
+.big-picture .vertical-fit {
+  text-align: center;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.big-picture svg {
+  fill: white;
+  overflow: visible;
+  width: 90%;
+  height: auto;
+  padding-bottom: 15px;
+}
+
+.header-frame {
+  border: 3px solid white;
+  padding: 15px;
+  display: table;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  display: table;
+  z-index: 9999;
+}
+
+.nav-height {
+  height: 60px;
+}
+
+.stuck {
+  position:fixed;
+  top: 0;
+  width: calc(100% - 30px);
+}
+
+.nav-frame {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  padding: 0;
+}
+
+nav svg {
+  width: 40px;
+  height: auto;
+}
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  background-color: white;
+  transition: margin-top .25s ease-in-out;
+  -moz-transition: margin-top .25s ease-in-out;
+  -webkit-transition: margin-top .25s ease-in-out;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0 9px;
+}
+
+.nav-height.navbar-hidden .navbar {
+  margin-top: -57px;
+}
+
+.nav>li {
+  width: 20%;
+}
+
+.nav>li>a {
+  display: inline-block;
+}
+
+.navbar-nav>li>a {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 7px; 
+}
+
+.navbar-nav>li>a.plain-nav,
+.navbar-nav>li>a.plain-nav:hover {
+  padding: 0;
+  margin:0;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .big-picture .vertical-fit {
+    text-align: left;
+    padding-left: 30px;
+  }
+
+  .big-picture svg {
+    width: 70%;
+  }
+
+  .header-frame {
+    margin: 0;
+  }
+}

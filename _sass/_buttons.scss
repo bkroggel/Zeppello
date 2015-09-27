@@ -1,0 +1,36 @@
+/* 0.3 BUTTONS
+   ========================================================================== */
+
+ .btn-standart {
+  color: black;
+  font-family: 'Karla';
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: white;
+  border-radius: 0;
+  border: 2px solid black;
+  padding: 3px 6px;
+  font-size: 14px;
+}
+
+.btn-standart:hover,
+.btn-standart:active,
+.btn:focus {
+  background-color: black;
+  color: white;
+  border-color: black;
+  outline:0 !important;
+  -webkit-transition: all 0.2s ease-in-out; 
+  -moz-transition: all 0.2s ease-in-out; 
+  -o-transition: all 0.2s ease-in-out; 
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-frame-centered {
+  width: 100%;
+  text-align: center;
+}
+
+.btn-centered {
+  margin-top: 30px;
+}

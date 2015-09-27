@@ -1,0 +1,99 @@
+/* 1.5 TWITTER
+   ========================================================================== */
+
+.twitter-frame {
+  width: 100%;
+}
+
+#twitter-posts .row {
+  padding: 15px;
+}
+
+#twitter-posts .twitter-cols {
+  overflow: hidden;
+  height: 170px;
+  margin-bottom: 20px;
+  border-top: 1px solid rgb(218, 218, 218);
+  padding-top: 20px;
+}
+
+#twitter-posts .twitter-cols:first-child {
+  padding-left: 0px;
+  border: none;
+}
+
+#twitter-cols .tweet a {
+  word-wrap: break-word;
+}
+
+#twitter-posts .btn-twitter {
+  margin-right: 10px;
+  margin-top: -18px;
+}
+
+.btn-frame-centered-twitter .btn-tweets {
+  margin: 15px 0 15px;
+  border-color: white;
+  color: white;
+  background: none;
+}
+
+.btn-frame-centered-twitter {
+  background-color: rgb(54, 54, 54);
+}
+
+p.interact {
+  position: absolute;
+  bottom: -10px;
+}
+
+@media(min-width: 768px) {
+  #twitter-posts .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  #twitter-posts .twitter-cols {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: none;
+    border-left: 1px solid rgb(218, 218, 218);
+    border-right: 1px solid rgb(218, 218, 218);
+    height: 180px;
+    padding-top: 0;
+  }
+
+  #twitter-posts .twitter-cols:last-child {
+    padding-right: 0px;
+    border: none;
+  }
+
+  .twitter-frame {
+    border: 2px solid black;
+    border-bottom: none;
+  }
+
+  #twitter-posts .btn-twitter {
+    margin-right: -2px;
+    margin-top: -18px;
+  }
+}
+
+@media (min-width: 992px) {
+  #twitter-posts .twitter-cols {
+    height: 170px;
+  }
+
+  #twitter-posts .btn-twitter {
+    margin-right: 10px;
+    margin-top: -18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #twitter-posts .twitter-cols {
+    height: 150px;
+  }
+}
