@@ -87,7 +87,7 @@ p.timePosted {
 
 .about h1,
 .footer h1 {
-  font-family: 'CormorantMedium';
+  font-family: $quote-normal;
   font-weight: normal;
   font-style: normal;
   font-size: 50px;
@@ -96,7 +96,7 @@ p.timePosted {
 
 .about-italic h1,
 .footer-italic h1 {
-  font-family: 'CormorantBoldItalic';
+  font-family: $quote-second;
   font-weight: normal;
   font-style: italic;
 }
@@ -109,7 +109,7 @@ p.timePosted {
 .blog p,
 .work p,
 .twitter p {
-  font-family: 'Lato';
+  font-family: '$primary-text-font';
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
@@ -155,7 +155,7 @@ p.timePosted {
 .footer--nav a {
   color: white;
   text-transform: uppercase;
-  font-family: 'Lato';
+  font-family: $primary-text-font;
   font-size: 15px;
   list-style: none;
   font-weight: 300;
@@ -184,7 +184,7 @@ p.timePosted {
   .blog p,
   .work p,
   .twitter p {
-    font-family: 'Lato';
+    font-family: $primary-text-font;
     font-weight: 300;
     font-size: 20px;
     line-height: 40px;
