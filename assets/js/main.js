@@ -2,10 +2,10 @@ $(document).ready(function(){
 
 // WOW.js Effects
     // every class wow-standart 
-    $('.wow-standart').addClass('wow fadeIn').attr('data-wow-delay', '0s');
+    $('.wow-standart').addClass('wow fadeIn').attr('data-wow-duration', '0.8s');
     // the blog cols
-    $('.blog .row .wow:nth-child(odd)').addClass('fadeInLeft').attr('data-wow-delay', '0s');
-    $('.blog .row .wow:nth-child(even)').addClass('fadeInRight').attr('data-wow-delay', '0s');
+    $('.blog .row .wow:nth-child(odd)').addClass('fadeInLeft').attr('data-wow-duration', '0.5s');
+    $('.blog .row .wow:nth-child(even)').addClass('fadeInRight').attr('data-wow-duration', '0.5s');
 
   wow = new WOW(
     {
