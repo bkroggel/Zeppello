@@ -1,5 +1,6 @@
 # Site settings
 title: Bastian Kroggel
+admin_user: Bastian Kroggel
 email: mail@bastiankroggel.com
 description: "There is currently no description, but I am working on it."
 baseurl: "" # the subpath of your site, e.g. /blog/
