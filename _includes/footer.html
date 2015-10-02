@@ -13,12 +13,9 @@
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 cols">
-      <ul class="footer--nav">
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Impressum</a></li>
+      <ul class="footer--nav"> {% for footer_nav in site.data.nav.footer_navs %}
+        <li><a href="{{footer_nav.link}}">{{footer_nav.name}}</a></li>
+        {% endfor %}
       </ul>
     </div>
   </div>

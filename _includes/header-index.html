@@ -38,7 +38,7 @@
         </a>
         <ul class="paradeiser_children" id="paradeiser-more">{% for dropdown in page.mobile.dropdowns %}
           <li><a href="{{dropdown.link}}" {% if dropdown.scrolling and dropdown.target == "intern" %}class="scroll-nav"{% elsif dropdown.target == "extern" %} target="_blank"{% endif %}>{{dropdown.name}}</a>
-          {% endfor%}
+          {% endfor %}
           <li><a href="https://twitter.com/{{site.twitter_username}}" target="_blank">Twitter</a></li>
           <li><a href="https://github.com/{{site.github_username}}" target="_blank">Github</a></li>
           <li id="greybox"><a href="#!"></a></li>
