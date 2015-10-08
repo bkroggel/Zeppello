@@ -169,6 +169,30 @@ p.timePosted {
   text-decoration: none;
 }
 
+.blog--header-frame h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.header-bar .blog-quote h1,
+.header-bar .blog-quote h2 {
+  font-family: $quote-normal;
+  color: white;
+  text-align: left;
+}
+
+.header-bar .blog-quote h1 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.header-bar .blog-quote h2 {
+  font-size: 15px;
+  margin-top: 0;
+}
+
+
 @media (min-width: 786px) {
   .big-picture h1 {
     margin: 0;
