@@ -6,6 +6,11 @@
   padding: 15px;
   height: 100%;
   min-height: 250px;
+  margin-top: 75px;
+  display: table;
+  @media (min-width: 992px) {
+    margin-top: 0px;
+  }
 }
 
 .frame-align-blog-logo {
@@ -20,17 +25,23 @@
 }
 
 .header-bar svg {
-  width: 300px;
+  width: 190px;
   fill: white;
 }
 
 .blog--header-frame {
   color: white;
   float: right;
-  padding: 5px 20px;
+  padding: 3px 5px;
   border-width: 2px;
 }
 
 .blog-quote {
-  width: 300px;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  @media (min-width: 768px) {
+    width: 300px;
+    display: block;
+  }
 }

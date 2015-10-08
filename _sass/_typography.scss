@@ -64,7 +64,8 @@
 .about > .section-header h3,
 .blog h3,
 h3.year-date,
-p.timePosted {
+p.timePosted,
+.blog-posts h2 {
   font-family: $primary-nav-font;
   text-transform: uppercase;
   color: rgba(109, 109, 109, 0.8);
@@ -76,8 +77,13 @@ h3.year-date {
   margin: 0 0 30px;
 }
 
-p.timePosted {
+p.timePosted,
+.blog-posts h2 {
   margin: 20px 0 0;
+}
+
+.blog-posts h2 {
+  letter-spacing: 4px;
 }
 
 .section-header h3 {
@@ -179,7 +185,14 @@ p.timePosted {
 .header-bar .blog-quote h2 {
   font-family: $quote-normal;
   color: white;
-  text-align: left;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  @media (min-width: 768px) {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
 }
 
 .header-bar .blog-quote h1 {
@@ -192,8 +205,26 @@ p.timePosted {
   margin-top: 0;
 }
 
+.blog-posts h1,
+a.blog-posts--title {
+  color: black;
+  font-family: $primary-text-font;
+  text-decoration: none;
+  font-size: 50px;
+  margin-top: 0;
+  &:hover {
+    text-decoration: none;
+    opacity: 0.7;
+  }
+}
 
-@media (min-width: 786px) {
+.blog-posts p {
+  font-family: $quote-normal;
+  font-size: 21px;
+  line-height: 30px;
+}
+
+@media (min-width: 768px) {
   .big-picture h1 {
     margin: 0;
     line-height: 1.1;
