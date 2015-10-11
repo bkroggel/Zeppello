@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Inital Testpost"
+tags: [featured, test]
+fancy: blub
 ---
-# Das ist ja toll
 So, dass ist dann mal mein erster Testtext hier, den ich jetzt gleich mal noch mit ein wenig Minion Geschwafel unterstützen werde.
 
 Minions ipsum tulaliloo bee do bee do bee do belloo! Me want bananaaa! Potatoooo poopayee butt la bodaaa la bodaaa ti aamoo! Jiji po kass poulet tikka masala tulaliloo belloo! La bodaaa bee do bee do bee do jeje aaaaaah. Daa aaaaaah daa daa me want bananaaa! Ti aamoo! Ti aamoo! Aaaaaah jiji. Pepete tulaliloo bananaaaa wiiiii pepete belloo!

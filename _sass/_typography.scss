@@ -205,6 +205,40 @@ p.timePosted,
   margin-top: 0;
 }
 
+.blog-posts h1,
+.blog-posts h2,
+.blog-posts h3,
+.blog-posts h4,
+.blog-posts h5,
+.blog-posts h6 {
+  font-family: $primary-text-font;
+}
+
+.blog-posts h3 {
+  text-transform: uppercase;
+}
+
+.blog-posts h4 {
+  font-weight: 700;
+}
+
+.blog-posts p {
+  font-family: $quote-normal;
+  font-size: 23px;
+  line-height: 38px;
+}
+
+.blog-posts p a,
+.blog-posts p a:visited {
+  color: rgb(199, 37, 78);
+}
+
+.blog-posts p a:hover,
+.blog-posts p a:active {
+  color: rgb(110, 110, 110);
+  text-decoration: none;
+}
+
 h1.posts-title,
 a.blog-posts--title {
   color: black;
@@ -216,12 +250,6 @@ a.blog-posts--title {
     text-decoration: none;
     opacity: 0.7;
   }
-}
-
-.blog-posts p {
-  font-family: $quote-normal;
-  font-size: 21px;
-  line-height: 30px;
 }
 
 @media (min-width: 768px) {
