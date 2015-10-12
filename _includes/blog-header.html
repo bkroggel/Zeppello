@@ -84,6 +84,17 @@
     </div>
   </div> <!-- /header-bar -->
   
+  <!-- featured Blog-Posts in header -->
+  <section class="blog--featured">
+    <div class="row row-eq-height">
+      {% assign featuredPosts = site.posts | where:"featured", true %}
+      {% for post in featuredPosts %}
+      {% include blog-posts-featured.html %}
+      {% endfor %}
+    </div>
+  </section>
+
+
 
   <div class="nav-height hidden-sm hidden-xs">
     <nav class="navbar hidden-sm hidden-xs">

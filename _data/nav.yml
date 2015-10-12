@@ -1,6 +1,6 @@
 footer_navs:
-  - name: About
-    link: /about
+  - name: Home
+    link: /
   - name: Work
     link: /work
   - name: Blog

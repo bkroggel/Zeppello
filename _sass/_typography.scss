@@ -65,7 +65,8 @@
 .blog h3,
 h3.year-date,
 p.timePosted,
-.blog-posts h2 {
+.blog-posts h2,
+.blog--featured h3 {
   font-family: $primary-nav-font;
   text-transform: uppercase;
   color: rgba(109, 109, 109, 0.8);
@@ -114,7 +115,8 @@ p.timePosted,
 .text p,
 .blog p,
 .work p,
-.twitter p {
+.twitter p,
+.blog--featured p {
   font-family: $primary-text-font;
   font-weight: 300;
   font-size: 18px;
@@ -123,7 +125,8 @@ p.timePosted,
   letter-spacing: 0.01em;
 }
 
-.blog p {
+.blog p,
+.blog--featured p {
   margin-bottom: 40px;
 }
 
@@ -138,7 +141,8 @@ p.timePosted,
 }
 
 .blog h1,
-.work h1 {
+.work h1,
+.blog--featured h1 {
   font-family: 'CormorantMedium';
   font-weight: normal;
   font-style: normal;
@@ -266,7 +270,8 @@ a.blog-posts--title {
   .text p,
   .blog p,
   .work p,
-  .twitter p {
+  .twitter p,
+  .blog--featured p {
     font-family: $primary-text-font;
     font-weight: 300;
     font-size: 20px;
