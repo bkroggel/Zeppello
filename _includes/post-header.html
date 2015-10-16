@@ -25,7 +25,7 @@
         </svg>
       </a>
     </div>
-    <div class="blog-element--frame">
+    <div>
       <a href="{{site.baseurl}}/blog/">
         <div class="title-element">
           <h1>BLOG</h1>
@@ -35,4 +35,10 @@
     <div class="underlined-header"></div>
   </div>
   {% include navigation.html %}
+</section>
+
+<section class="blog-posts">
+  <h2>{% assign d = page.date | date: "%-d" %}{{ page.date | date: "%A, %B" }}{% case d %}{% when "1" or "21" or "31" %} {{ d }}st{% when "2" or "22" %} {{ d }}nd{% when "3" or "23" %} {{ d }}rd{% else %} {{ d }}th{% endcase %}, {{ page.date | date: "%Y" }}</h2>
+  <div class="blog-posts--title"><h1 class="posts-title">{{ page.title }}</h1></div>
+  {{content}}
 </section>
