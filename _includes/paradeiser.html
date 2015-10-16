@@ -1,5 +1,5 @@
 <div class="paradeiser hidden-md hidden-lg">
-  <a href="{{page.mobile.nav_1.link}}" class="scroll-nav">
+  <a href="{% if page.mobile.nav_1.link %}{{page.mobile.nav_1.link}}{% else %}{{site.data.nav.mobile.nav_1.link}}{% endif %}" class="scroll-nav">
     <svg version="1.1" id="paradeiser-logo" x="0px" y="0px" viewBox="0 0 104.629 104.631" enable-background="new 0 0 104.629 104.631"
        xml:space="preserve">
       <g>
@@ -12,29 +12,36 @@
       <path d="M104.629,104.631H0V0h104.629V104.631z M5,99.631h94.629V5H5V99.631z"/>
     </svg>
   </a>
-  <a href="{{page.mobile.nav_2.link}}" class="scroll-nav">
+  <a href="{% if page.mobile.nav_2.link %}{{page.mobile.nav_2.link}}{% else %}{{site.data.nav.mobile.nav_2.link}}{% endif %}" class="scroll-nav">
     <div class="paradeiser_icon_canvas">
-      <img src="{{page.mobile.nav_2.symbol}}" alt="Blog">
+      <img src="{% if page.mobile.nav_2.symbol %}{{page.mobile.nav_2.symbol}}{% else %}{{site.data.nav.mobile.nav_2.symbol}}{% endif %}" alt="Blog">
     </div>
-    <span>{{page.mobile.nav_2.name}}</span>
+    <span>{% if page.mobile.nav_2.name %}{{page.mobile.nav_2.name}}{% else %}{{site.data.nav.mobile.nav_2.name}}{% endif %}</span>
   </a>
-  <a href="{{page.mobile.nav_3.link}}" class="scroll-nav">
+  <a href="{% if page.mobile.nav_3.link %}{{page.mobile.nav_3.link}}{% else %}{{site.data.nav.mobile.nav_3.link}}{% endif %}" class="scroll-nav">
     <div class="paradeiser_icon_canvas">
-      <img src="{{page.mobile.nav_3.symbol}}" alt="Work">
+      <img src="{% if page.mobile.nav_3.symbol %}{{page.mobile.nav_3.symbol}}{% else %}{{site.data.nav.mobile.nav_3.symbol}}{% endif %}" alt="Work">
     </div>
-    <span>{{page.mobile.nav_3.name}}</span>
+    <span>{% if page.mobile.nav_3.name %}{{page.mobile.nav_3.name}}{% else %}{{site.data.nav.mobile.nav_3.name}}{% endif %}</span>
   </a>
 
   <span class="paradeiser_dropdown">
     <a href="#paradeiser-more" id="paradeiser-dropdown">
       <div class="paradeiser_icon_canvas">
-          <img src="{{page.mobile.nav_4.symbol}}" alt="More">
+          <img src="{% if page.mobile.nav_4.symbol %}{{page.mobile.nav_4.symbol}}{% else %}{{site.data.nav.mobile.nav_4.symbol}}{% endif %}" alt="More">
       </div>
-      <span>{{page.mobile.nav_4.name}}</span>
+      <span>{% if page.mobile.nav_4.name %}{{page.mobile.nav_4.name}}{% else %}{{site.data.nav.mobile.nav_4.name}}{% endif %}</span>
     </a>
-    <ul class="paradeiser_children" id="paradeiser-more">{% for dropdown in page.mobile.dropdowns %}
-      <li><a href="{{dropdown.link}}" {% if dropdown.scrolling and dropdown.target == "intern" %}class="scroll-nav"{% elsif dropdown.target == "extern" %} target="_blank"{% endif %}>{{dropdown.name}}</a>
-      {% endfor %}
+    
+    {% if page.mobile.dropdowns %}
+      <ul class="paradeiser_children" id="paradeiser-more">{% for dropdown in page.mobile.dropdowns %}
+        <li><a href="{{dropdown.link}}" {% if dropdown.scrolling and dropdown.target == "intern" %}class="scroll-nav"{% elsif dropdown.target == "extern" %} target="_blank"{% endif %}>{{dropdown.name}}</a>
+        {% endfor %}
+    {% else %}
+      <ul class="paradeiser_children" id="paradeiser-more">{% for dropdown in site.data.nav.mobile.dropdowns %}
+        <li><a href="{{dropdown.link}}" {% if dropdown.scrolling and dropdown.target == "intern" %}class="scroll-nav"{% elsif dropdown.target == "extern" %} target="_blank"{% endif %}>{{dropdown.name}}</a>
+        {% endfor %}
+    {% endif %}
       <li><a href="https://twitter.com/{{site.twitter_username}}" target="_blank">Twitter</a></li>
       <li><a href="https://github.com/{{site.github_username}}" target="_blank">Github</a></li>
       <li id="greybox"><a href="#!"></a></li>
