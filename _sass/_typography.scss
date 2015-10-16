@@ -179,7 +179,8 @@ p.timePosted,
   text-decoration: none;
 }
 
-.blog--header-frame h1 {
+.blog--header-frame h1,
+.post-header--container .title-element h1 {
   margin: 0;
   text-transform: uppercase;
   font-size: 12px;

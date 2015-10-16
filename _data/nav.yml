@@ -12,7 +12,7 @@ footer_navs:
 
 full:
   nav_1:
-    name: Bitch
+    name: About
     link: "#about"
   nav_2:
     name: Blog
