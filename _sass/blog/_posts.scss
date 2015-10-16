@@ -1,6 +1,12 @@
 .blog-posts {
-  width: 60%;
+  width: 90%;
   margin: 100px auto 100px;
+  @media (min-width: 768px) {
+    width: 80%;
+  }
+  @media (min-width: 992px) {
+    width: 60%;
+  }
 }
 
 pre {
