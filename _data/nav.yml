@@ -13,16 +13,16 @@ footer_navs:
 full:
   nav_1:
     name: About
-    link: "#about"
+    link: /about
   nav_2:
     name: Blog
-    link: "#blog"
+    link: /blog
   nav_3:
     name: #just BK Logo
-    link: "#top"
+    link: /
   nav_4:
     name: Work
-    link: "#work"
+    link: /work
   nav_5:
     name: More
     link: #already saved for dropdown
@@ -39,18 +39,18 @@ full:
 mobile:
   nav_1:
     symbol: #already taken by logo
-    link: "#top"
+    link: /
     name: #just logo
   nav_2:
-    symbol: assets/img/site/blog.svg
-    link: "#blog"
+    symbol: /assets/img/site/blog.svg
+    link: /blog
     name: Blog
   nav_3:
-    symbol: assets/img/site/work.svg
-    link: "#work"
+    symbol: /assets/img/site/work.svg
+    link: /work
     name: Work
   nav_4:
-    symbol: assets/img/site/more.svg
+    symbol: /assets/img/site/more.svg
     link: #already taken by dropdown
     name: More
   dropdowns: #add name and link, also add target(intern, extern) and scrolling(true, false)
