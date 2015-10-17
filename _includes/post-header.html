@@ -38,8 +38,33 @@
   {% include navigation.html %}
 </section>
 
+{% assign post = page %}
+{% if post.tags.size > 0 %}
+  {% for post_tag in post.tags %}
+    {% for data_tag in site.data.tags %}
+      {% if data_tag.slug == post_tag %}
+        {% assign tag = data_tag %}
+      {% endif %}
+    {% endfor %}
+    {% if tag %}
+      {% capture tags_content_temp %}{{ tags_content }}<a href="/blog/tag/{{ tag.slug }}/">{{ tag.name }}</a>{% endcapture %}
+      {% assign tags_content = tags_content_temp %}
+    {% endif %}
+  {% endfor %}
+{% else %}
+  {% assign tags_content = '' %}
+{% endif %}
+
+
+
 <section class="blog-posts">
   <h2>{% assign d = page.date | date: "%-d" %}{{ page.date | date: "%A, %B" }}{% case d %}{% when "1" or "21" or "31" %} {{ d }}st{% when "2" or "22" %} {{ d }}nd{% when "3" or "23" %} {{ d }}rd{% else %} {{ d }}th{% endcase %}, {{ page.date | date: "%Y" }}</h2>
   <div class="blog-posts--title"><h1 class="posts-title">{{ page.title }}</h1></div>
-  {{content}}
+  <div class="blog-posts--tags">
+      <p>{{ tags_content }}</p>
+  </div>
+  <div class="blog-posts--content">
+    {{content}}  
+  </div>
+  
 </section>

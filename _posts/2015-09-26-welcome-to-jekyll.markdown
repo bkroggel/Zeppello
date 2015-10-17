@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2015-09-26 18:35:37
+tags: [schlumpf]
 categories: jekyll update
 featured: true
 showcase: This is just a little line to show you the possibilities and how to make things happen. Now, let's try that wout and see how it works.

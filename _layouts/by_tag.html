@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+  {% if site.tags[page.tag] %}
+      {% for post in site.tags[page.tag] %}
+          {% include blog-header.html %}
+          {% include blog-posts.html %}
+      {% endfor %}
+  {% else %}
+      <p>There are no posts for this tag.</p>
+  {% endif %}
+
+  {% include footer.html %}
+  {% include copyright.html %}
+</body>
+</html>
