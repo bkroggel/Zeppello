@@ -1,0 +1,6 @@
+.sorted-headline {
+  display: table-cell;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}

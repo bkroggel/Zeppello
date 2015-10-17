@@ -5,8 +5,11 @@
 
 <body>
   
-  {% include blog-header.html %}
-  {% include blog-posts.html %}
+  {% include overview-header.html %}
+
+  {% for post in site.posts %}
+    {% include overview-posts.html %}
+  {% endfor %}
 
   {% include footer.html %}
   {% include copyright.html %}

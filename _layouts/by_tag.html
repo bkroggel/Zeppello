@@ -6,8 +6,8 @@
 <body>
   {% if site.tags[page.tag] %}
       {% for post in site.tags[page.tag] %}
-          {% include blog-header.html %}
-          {% include blog-posts.html %}
+          {% include tags-header.html %}
+          {% include overview-posts.html %}
       {% endfor %}
   {% else %}
       <p>There are no posts for this tag.</p>
