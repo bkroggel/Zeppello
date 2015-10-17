@@ -292,6 +292,9 @@ a.blog-posts--title {
   &:last-child {
     margin-right: 0px;
   }
+  &:visited {
+    color: black;
+  }
   &:hover {
     background-color: black;
     color: white;
@@ -299,9 +302,6 @@ a.blog-posts--title {
     -moz-transition: all 0.2s ease-in-out; 
     -o-transition: all 0.2s ease-in-out; 
     transition: all 0.2s ease-in-out;
-  }
-  &:visited {
-    color: black;
   }
 }
 
