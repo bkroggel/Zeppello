@@ -50,7 +50,7 @@ nav {
 }
 
 .stuck {
-  position:fixed;
+  position: fixed;
   top: 0;
   width: calc(100% - 30px);
 }
@@ -108,13 +108,9 @@ nav svg {
 }
 
 @media (min-width: 768px) {
-  .big-picture .vertical-fit {
-    text-align: left;
-    padding-left: 30px;
-  }
 
   .big-picture svg {
-    width: 70%;
+    width: 500px;
   }
 
   .header-frame {
