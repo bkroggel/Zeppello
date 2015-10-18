@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Inital Testpost"
 tags: [test, gusti, schlumpf]
 featured: true

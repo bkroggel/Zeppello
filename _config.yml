@@ -13,3 +13,12 @@ excerpt_separator: <!-- more -->
 
 # Build settings
 markdown: kramdown
+
+#default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
