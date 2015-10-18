@@ -45,3 +45,20 @@
     display: block;
   }
 }
+
+.row-eq-height,
+.row-eq-height > div[class*='col-'] {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex:1 1 auto;
+  // margin: -.2px;
+}
+
+.row-eq-height {
+  -webkit-flex-flow: row wrap;
+  align-content: flex-start;
+  flex:0;
+}

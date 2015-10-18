@@ -2,7 +2,7 @@
 title: "Inital Testpost"
 tags: [test, gusti, schlumpf]
 featured: true
-showcase: So, dass ist dann mal mein erster Testtext hier, den ich jetzt gleich mal noch mit ein wenig Minion Geschwafel unterstützen werde.
+showcase: So, dass ist dann mal mein erster Testtext hier, den ich jetzt gleich mal noch mit ein wenig Minion Geschwafel unterstützen werde.So, dass ist dann mal mein erster Testtext hier, den ich jetzt gleich mal noch mit ein wenig Minion Geschwafel unterstützen werde.
 ---
 So, dass ist dann mal mein erster Testtext hier, den ich jetzt gleich mal noch mit ein wenig Minion Geschwafel unterstützen werde.
 
