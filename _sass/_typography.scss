@@ -70,11 +70,8 @@ p.timePosted,
   font-family: $primary-nav-font;
   text-transform: uppercase;
   color: rgba(109, 109, 109, 0.8);
-  font-size: 10px;
+  font-size: 14px;
   margin: 40px 0 10px;
-  @media (min-width: 768px) {
-    font-size: 14px;
-  }
 }
 
 h3.year-date {
@@ -88,8 +85,10 @@ p.timePosted,
 
 .blog-posts h2 {
   letter-spacing: 2px;
+  font-size: 10px;
   @media (min-width: 768px) {
     letter-spacing: 4px;
+    font-size: 14px;
   }
 }
 
