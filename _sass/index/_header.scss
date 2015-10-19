@@ -27,9 +27,16 @@
 .big-picture svg {
   fill: white;
   overflow: visible;
-  width: 90%;
+  width: 80%;
   height: auto;
   padding-bottom: 15px;
+  margin-top: 75px;
+  @media (min-width: 992px) {
+    margin-top: 0;
+  }
+  @media (min-width: 768px) {
+    width: 500px;
+  }
 }
 
 .header-frame {
@@ -108,11 +115,6 @@ nav svg {
 }
 
 @media (min-width: 768px) {
-
-  .big-picture svg {
-    width: 500px;
-  }
-
   .header-frame {
     margin: 0;
   }
