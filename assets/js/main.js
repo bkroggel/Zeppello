@@ -66,7 +66,14 @@ $(document).ready(function(){
       });
       return false;
   });
+
+  $('.blog-posts--content a').attr('target', '_blank');
+  $('.blog-posts--content img').attr('data-action', 'zoom');
+  $('.blog-posts--content .cover img').removeAttr('data-action', 'zoom');
+
 });
+
+
 
 // this code would force the page to alway load on top(0)
 // $(window).on('beforeunload', function(){
