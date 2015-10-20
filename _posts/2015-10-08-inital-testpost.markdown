@@ -24,5 +24,5 @@ That is actually fucking nice[^1], was passt jetzt daran nicht?[^2]
 
 Potatoooo aaaaaah wiiiii uuuhhh bee do bee do bee do ti aamoo! Po kass tulaliloo chasy tulaliloo wiiiii hahaha para tú. Po kass hana dul sae tank yuuu! Pepete poulet tikka masala. Poulet tikka masala daa hahaha po kass. Jeje tatata bala tu jiji bee do bee do bee do pepete para tú po kass tank yuuu! Hahaha bananaaaa. Butt gelatooo chasy baboiii poopayee para tú bappleees para tú. Pepete me want bananaaa! Po kass para tú po kass butt belloo! Hahaha bappleees belloo! Wiiiii bananaaaa ti aamoo! Potatoooo hahaha poopayee wiiiii. Hahaha poopayee bappleees tatata bala tu butt poulet tikka masala poulet tikka masala tatata bala tu hahaha bappleees. Wiiiii po kass po kass pepete baboiii. Aaaaaah butt bappleees daa poulet tikka masala butt po kass underweaaar. 
 
-[^1]: sorry for that
+[^1]: sorry for that, und ich muss hier jetzt mal noch ein wenig mehr schreiben, damit das auch so aussieht, als hätte ich mir dabei Gedanken gemacht. Hey...schau, ein [Link](https://twitter.com/derKroggel). So, das war der erste Satz und wenn man jetzt jemandem in der Fußnote was erklären möchte, dann gibt man sich dabei natürlich Mühe und das alles wird ein wenig ausführlicher.
 [^2]: weiterer Punkt

@@ -275,6 +275,25 @@ a.blog-posts--title {
   }
 }
 
+a.footnote {
+  font-size: 130%;
+}
+
+.footnotes {
+  margin-top: 40px;
+}
+
+.footnotes p {
+  line-height: 20px;
+  font-size: 16px;
+  color: rgb(118, 118, 118);
+}
+.footnotes ol {
+ font-family: $primary-text-font;
+ font-size: 12px;
+ color: rgb(118, 118, 118);
+}
+
 .blog-posts .blog-posts--tags a {
   float: left;
   border: 2px solid black;
