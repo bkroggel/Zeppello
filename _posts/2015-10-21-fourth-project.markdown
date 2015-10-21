@@ -1,6 +1,5 @@
 ---
 title: Fourth Project
-date: October 20ST, 2015
 tags: [work]
 featured: false
 project_date: 2015
