@@ -4,8 +4,10 @@
 {% include head.html %}
 
 <body>
-  {% include post-header.html %}
-  {% include post-content.html %}
+  {% include work-header.html %}
+  {% for post in site.tags.work %}
+    {% include overview-posts.html %}
+  {% endfor %}
 
   {% include footer.html %}
   {% include copyright.html %}  

@@ -5,8 +5,8 @@
 
 <body>
   {% if site.tags[page.tag] %}
+  {% include tags-header.html %}
       {% for post in site.tags[page.tag] %}
-          {% include tags-header.html %}
           {% include overview-posts.html %}
       {% endfor %}
   {% else %}
