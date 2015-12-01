@@ -4,7 +4,7 @@
 
     {% include paradeiser.html %}
     
-    <div class="frame-align-blog-logo hidden-xs">
+    <div class="hidden-xs hidden-sm">
       <a href="{{site.baseurl}}/">
         <svg viewBox="0 0 502.569 35.821" width="100%">
           <g>
@@ -28,31 +28,20 @@
           </g>
         </svg>
       </a>
-      <div>
-        <a href="{{site.baseurl}}/blog/">
-          <div class="header-frame blog--header-frame">
-            <h1>{{page.title}}</h1>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="blog-quote">
-      <h1>{{page.quote.text}}</h1>
-      <h2>- {{page.quote.author}}</h2>
     </div>
   </div> <!-- /header-bar -->
   
   <!-- featured Blog-Posts in header -->
-  <section class="blog--featured">
+  <!-- <section class="blog--featured">
     <div class="row row-eq-height">
+      {% comment %}
       {% assign featuredPosts = site.posts | where:"featured", true %}
       {% for post in featuredPosts %}
       {% include overview-posts-featured.html %}
       {% endfor %}
+      {% endcomment %}
     </div>
-  </section>
-
-  {% include navigation.html %}
+  </section> -->
 
   
 </header>
