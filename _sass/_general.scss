@@ -43,6 +43,8 @@ body {
   margin-bottom: 5px;
 }
 
+
+// workaround for safari problems --> displaying the blog section
 @media (min-width: 768px) {
   .col-sm-6 {
     width: 49.9%
