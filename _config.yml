@@ -10,6 +10,7 @@ theme-color: "#363636" #Theme color for Google Chrome for Android
 twitter_username: derKroggel
 github_username: bkroggel
 excerpt_separator: <!-- more -->
+highlighter: pygments
 
 # Pagination Settings
 paginate: 5
