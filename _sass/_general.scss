@@ -42,3 +42,22 @@ body {
 .dropdown-toggle {
   margin-bottom: 5px;
 }
+
+@media (min-width: 768px) {
+  .col-sm-6 {
+    width: 49.9%
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-6 {
+    width: 49.9%
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-6 {
+    width: 49.9%
+  }
+}
+
