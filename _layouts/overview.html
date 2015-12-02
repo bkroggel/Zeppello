@@ -7,9 +7,11 @@
   
   {% include overview-header.html %}
 
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     {% include overview-posts.html %}
   {% endfor %}
+
+  {% include pagination.html %}
 
   {% include footer.html %}
   {% include copyright.html %}

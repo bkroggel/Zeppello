@@ -1,7 +1,8 @@
 /* 0.3 BUTTONS
    ========================================================================== */
 
- .btn-standart {
+ .btn-standart,
+ .btn-standart a {
   color: black;
   font-family: 'Karla';
   font-weight: 400;
@@ -37,4 +38,10 @@
 
 .btn-see-through {
   background: none;
+}
+
+.btn-deactivated {
+  opacity: 0.4;
+  pointer-events: none;
+  cursor: default;
 }

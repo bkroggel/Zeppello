@@ -11,6 +11,10 @@ twitter_username: derKroggel
 github_username: bkroggel
 excerpt_separator: <!-- more -->
 
+# Pagination Settings
+paginate: 5
+paginate_path: "/blog/:num/"
+
 # Build settings
 markdown: kramdown
 
