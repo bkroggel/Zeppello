@@ -1,5 +1,6 @@
 ---
 title: "Inital Testpost"
+author: Bastian Kroggel
 tags: [test, gusti, schlumpf]
 featured: true
 showcase: So, dass ist dann mal mein erster Testtext hier, den ich jetzt gleich mal noch mit ein wenig Minion Geschwafel unterstützen werde.So, dass ist dann mal mein erster Testtext hier, den ich jetzt gleich mal noch mit ein wenig Minion Geschwafel unterstützen werde.
@@ -9,9 +10,8 @@ showcase: So, dass ist dann mal mein erster Testtext hier, den ich jetzt gleich 
 
 So, dass ist dann mal mein erster Testtext hier, den ich jetzt gleich mal noch mit ein wenig Minion Geschwafel unterstützen werde.
 [jetzt noch ein Link](https://github.com/bkroggel)
-
-Minions ipsum tulaliloo bee do bee do bee do belloo! Me want bananaaa! Potatoooo poopayee butt la bodaaa la bodaaa ti aamoo! Jiji po kass poulet tikka masala tulaliloo belloo! La bodaaa bee do bee do bee do jeje aaaaaah. Daa aaaaaah daa daa me want bananaaa! Ti aamoo! Ti aamoo! Aaaaaah jiji. Pepete tulaliloo bananaaaa wiiiii pepete belloo!
 <!-- more -->
+Minions ipsum tulaliloo bee do bee do bee do belloo! Me want bananaaa! Potatoooo poopayee butt la bodaaa la bodaaa ti aamoo! Jiji po kass poulet tikka masala tulaliloo belloo! La bodaaa bee do bee do bee do jeje aaaaaah. Daa aaaaaah daa daa me want bananaaa! Ti aamoo! Ti aamoo! Aaaaaah jiji. Pepete tulaliloo bananaaaa wiiiii pepete belloo!
 
 ![What a picture](/assets/img/work4.jpg)
 {:.left25}
