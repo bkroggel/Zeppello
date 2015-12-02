@@ -1,6 +1,18 @@
 .blog-posts {
+  // width: 90%;
+  margin: 0px auto 100px;
+  @media (min-width: 992px) {
+    margin-top: 100px; 
+  }
+}
+
+.blog-posts p,
+.blog-posts h2,
+h1.posts-title,
+.footnotes ol {
   width: 90%;
-  margin: 100px auto 100px;
+  margin-left: auto;
+  margin-right: auto;
   @media (min-width: 768px) {
     width: 700px;
   }
@@ -31,16 +43,15 @@ pre {
     object-fit: cover;
     width: 100%;
   }
+  .cover {
+    width: 100%;
+    margin: 0 auto 20px;
+  }
   .cover img {
     @media (min-width: 768px) {
-      width: 100vw;
-      margin: 20px -15%;
       height: 400px;
     }
     @media (min-width: 992px) {
-      width: 166%;
-      margin-left: -33%;
-      margin-right: -33%;
       height: 600px;
     }
   }
@@ -113,5 +124,31 @@ pre {
       height: 380px;
       margin: 20px 0;
     }
+  }
+}
+
+//overview posts
+.overview-posts {
+  width: 100%;
+  @media (min-width: 768px) {
+      width: 700px;
+    }
+  &:first-of-type {
+    margin-top: 50px;
+    @media (min-width: 992px) {
+      margin-top: 100px;
+    }
+  }
+  .cover {
+    width: 90%;
+     @media (min-width: 768px) {
+      width: 100%;
+    }
+  }
+  p.cover {
+    margin-bottom: 0px !important;
+  }
+  h1.posts-title {
+    margin-bottom: 0px;
   }
 }

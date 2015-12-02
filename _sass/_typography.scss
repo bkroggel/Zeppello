@@ -78,9 +78,18 @@ h3.year-date {
   margin: 0 0 30px;
 }
 
-p.timePosted,
-.blog-posts h2 {
+p.timePosted {
   margin: 20px 0 0;
+}
+
+.blog-posts h2:first-of-type {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.blog-posts h2:last-of-type {
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .blog-posts h2 {
@@ -189,28 +198,11 @@ p.timePosted,
   font-size: 12px;
 }
 
-.header-bar .blog-quote h1,
-.header-bar .blog-quote h2 {
+.header-bar p {
+  width: 400px;
+  margin: 10px auto 0;
   font-family: $quote-normal;
-  color: white;
-  text-align: center;
-  width: 300px;
-  margin: 0 auto;
-  @media (min-width: 768px) {
-    width: 100%;
-    margin: 0;
-    text-align: left;
-  }
-}
-
-.header-bar .blog-quote h1 {
-  font-size: 25px;
-  margin-bottom: 0;
-}
-
-.header-bar .blog-quote h2 {
-  font-size: 15px;
-  margin-top: 0;
+  letter-spacing: -0.01em;
 }
 
 .blog-posts h1,

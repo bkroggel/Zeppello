@@ -1,5 +1,6 @@
 ---
 title: PPE-Conference
+author: Bastian Kroggel
 tags: [work]
 featured: false
 project_date: 2015

@@ -9,10 +9,32 @@ $(document).ready(function(){
 
   wow = new WOW(
     {
-    mobile:       false,
+    mobile: false,
   }
   )
   wow.init();
+
+  // looks for all links in :blog-posts--content and adds the attribute target:_blank to open the link in another window
+  $('.blog-posts--content a').attr('target', '_blank');
+  $('.blog-posts--content a.reversefootnote').removeAttr('target', '_blank');
+
+  
+  // adds zoom option to all pictures within blog post EXCEPT for cover-images
+  $('.blog-posts--content img').attr('data-action', 'zoom');
+  $('.blog-posts--content .cover img').removeAttr('data-action', 'zoom');
+
+  //scroll function to show a smooth animation while automatically scrolling to item
+  var $root = $('html, body');
+  $('.paradeiser .scroll-nav, nav a').click(function() {
+      var href = $.attr(this, 'href');
+      $root.animate({
+          scrollTop: $(href).offset().top
+      }, 500, function () {
+          window.location.hash = href;
+      });
+      return false;
+  });
+
 
 // calc screen hight (small and normal screens)
   var $header = $('.big-picture');
@@ -54,25 +76,7 @@ $(document).ready(function(){
       lastScrollTop = st;
     }
   });
-
-  //scroll function to show a smooth animation while automatically scrolling to item
-  var $root = $('html, body');
-  $('.paradeiser .scroll-nav, nav a').click(function() {
-      var href = $.attr(this, 'href');
-      $root.animate({
-          scrollTop: $(href).offset().top
-      }, 500, function () {
-          window.location.hash = href;
-      });
-      return false;
-  });
-
-  // looks for all links in :blog-posts--content and adds the attribute target:_blank to open the link in another window
-  $('.blog-posts--content a').attr('target', '_blank');
   
-  // adds zoom option to all pictures within blog post EXCEPT for cover-images
-  $('.blog-posts--content img').attr('data-action', 'zoom');
-  $('.blog-posts--content .cover img').removeAttr('data-action', 'zoom');
 
 });
 
