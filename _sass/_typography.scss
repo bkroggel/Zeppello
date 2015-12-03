@@ -104,8 +104,7 @@ p.timePosted {
   margin-right: 20px;
 }
 
-.about h1,
-.footer h1 {
+.about h1 {
   font-family: $quote-normal;
   font-weight: normal;
   font-style: normal;
@@ -113,15 +112,10 @@ p.timePosted {
   margin: 0;
 }
 
-.about-italic h1,
-.footer-italic h1 {
+.about-italic h1 {
   font-family: $quote-second;
   font-weight: normal;
   font-style: italic;
-}
-
-.footer h1 {
-  color: white;
 }
 
 .text p,
@@ -179,12 +173,15 @@ p.timePosted {
   text-transform: uppercase;
   font-family: $primary-text-font;
   font-size: 15px;
-  list-style: none;
-  font-weight: 300;
+  list-style: inline;
+  font-weight: 400;
 }
 
 .footer--nav li {
-  padding: 5px 0;
+  list-style: none;
+  @media (min-width: 768px) {
+    display: inline;
+  }
 }
 
 .footer--nav a:hover {

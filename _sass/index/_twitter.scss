@@ -39,7 +39,7 @@
 }
 
 .btn-frame-centered-twitter {
-  background-color: rgb(54, 54, 54);
+  background-color: $main-color;
 }
 
 p.interact {
@@ -71,7 +71,7 @@ p.interact {
   }
 
   .twitter-frame {
-    border: 2px solid black;
+    border: 2px solid $main-color;
     border-bottom: none;
   }
 
