@@ -5,7 +5,7 @@
 
 <body>
   {% if site.tags[page.tag] %}
-  {% include tags-header.html %}
+  {% include plain-header.html %}
       {% for post in site.tags[page.tag] %}
           {% include overview-posts.html %}
       {% endfor %}

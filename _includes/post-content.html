@@ -22,7 +22,7 @@
   {% endif %}
   <div class="blog-posts--title"><h1 class="posts-title">{{ page.title }}</h1></div>
   <div class="blog-posts--tags">
-      <p>{{ tags_content }}</p>
+      <p>{{ tags_content | replace: '/blog/tag/work/', '/work/' }}</p>
   </div>
   <div class="blog-posts--content">
     {{content}}  

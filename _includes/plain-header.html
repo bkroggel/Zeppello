@@ -1,6 +1,7 @@
-<section class="post-header">
-  <div class="post-header--container hidden-xs hidden-sm">
-    <div class="post-header--name-logo">
+<header>
+  <div class="header-bar" >
+    {% include paradeiser.html %}
+    <div class="hidden-xs hidden-sm">
       <a href="{{site.baseurl}}/">
         <svg viewBox="0 0 502.569 35.821" width="100%">
           <g>
@@ -25,15 +26,5 @@
         </svg>
       </a>
     </div>
-    <div>
-      <a href="{{site.baseurl}}/work/">
-        <div class="title-element">
-          <h1>WORK</h1>
-        </div>
-      </a>
-    </div>
-    <div class="underlined-header"></div>
-  </div>
-  {% include paradeiser.html %}
-  {% include navigation.html %}
-</section>
+  </div> <!-- /header-bar -->
+</header>

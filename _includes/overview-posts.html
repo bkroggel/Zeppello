@@ -29,6 +29,6 @@
       {{ post.excerpt }}
     </div>
     <div class="blog-posts--tags">
-      <p>{{ tags_content }}</p>
+      <p>{{ tags_content | replace: '/blog/tag/work/', '/work/' }}</p>
     </div>
   </div>
