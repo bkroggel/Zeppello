@@ -33,10 +33,12 @@ body {
 }
 
 .dropdown-menu {
-  border: 2px solid black;
+  border: none;
   border-radius: 0;
   width: 100%;
   padding: 15px 0;
+  background: $main-color;
+  text-align: center;
 }
 
 .dropdown-toggle {

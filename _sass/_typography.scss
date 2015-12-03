@@ -39,11 +39,12 @@
 .dropdown-menu li a {
   border: none;
   padding: 5px 20px;
+  color: white;
 }
 
 .dropdown-menu>li>a:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: $main-color;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
