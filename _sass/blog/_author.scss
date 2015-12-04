@@ -1,0 +1,24 @@
+.author-area {
+margin-bottom: 50px;
+padding: 20px 0;
+border-top: 1px solid $main-color;
+border-bottom: 1px solid $main-color;
+}
+
+.author-area img {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.author-area .pic-rounded {
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
+
+.author-area .img-col {
+}
