@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+
 // WOW.js Effects
     // every class wow-standart 
     $('.wow-standart').addClass('wow fadeIn').attr('data-wow-duration', '0.8s');
@@ -44,6 +45,8 @@ $(document).ready(function(){
     var h = (window.innerHeight)
   }
   $header.css('min-height', h);
+
+  $('.big-picture').snowfall({flakeCount : 400, maxSize : 3});
   
 // adds stuck or removes stuck class (waypoint)
   var nav_container = $('.nav-height');

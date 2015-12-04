@@ -1,8 +1,7 @@
 .author-area {
-margin-bottom: 50px;
+margin-bottom: 100px;
 padding: 20px 0;
-border-top: 1px solid $main-color;
-border-bottom: 1px solid $main-color;
+border-top: 1px solid $main-color; 
 }
 
 .author-area img {
@@ -16,9 +15,26 @@ border-bottom: 1px solid $main-color;
   height: 130px;
   overflow: hidden;
   border-radius: 50%;
-  float: left;
-  margin-right: 20px;
+  margin: 0 auto 20px;
+  @media (min-width: 768px) {
+    float: left;
+    margin:0 20px 0 0;
+  }
 }
 
-.author-area .img-col {
+.author-area .description {
+  text-align: center;
+  @media (min-width: 768px) {
+    margin-left: 150px;
+    text-align: left;
+  }
+}
+
+// img black and white
+img.grayscale {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1);
 }

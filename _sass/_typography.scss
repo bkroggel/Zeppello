@@ -150,11 +150,23 @@ p.timePosted {
 .blog h1,
 .work h1,
 .blog--featured h1 {
-  font-family: 'CormorantMedium';
+  font-family: $quote-normal;
   font-weight: normal;
   font-style: normal;
   font-size: 30px;
   margin-bottom: 40px;
+}
+
+.author-area .description p,
+.author-area .description h1 {
+  font-family: $primary-text-font;
+  color: rgba(109, 109, 109, 0.8);
+  font-size: 14px;
+}
+
+.author-area .description h1 {
+  text-transform: uppercase;
+  margin-top: 0;
 }
 
 .work h1 {
