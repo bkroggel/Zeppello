@@ -366,3 +366,26 @@ a.footnote {
     line-height: 25px;
   }
 }
+
+.message {
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+  @media (min-width: 992px) {
+    min-height: 525px;
+  }
+  p {
+    font-family: $quote-normal;
+    font-size: 20px;
+  }
+  h1 {
+    font-family: $primary-nav-font;
+    font-size: 40px;
+    text-transform: uppercase;
+    span {
+      font-weight: 700;
+      color: white;
+      background-color: $main-color;
+    }
+  }
+}
