@@ -48,7 +48,7 @@ $(document).ready(function(){
 
 // snowflakes for chirstmas (just 100 on mobile and 400 on bigger screens)
   if($(window).width() >= 768) {
-    $('.big-picture').snowfall({flakeCount : 400, maxSize : 3});
+    $('.big-picture').snowfall({flakeCount : 200, maxSize : 3});
   } else {
     $('.big-picture').snowfall({flakeCount : 100, maxSize : 2});
   }
