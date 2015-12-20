@@ -1,0 +1,9 @@
+.message {
+  min-height: 525px;
+  .blog-posts--content {
+    margin-top: 100px;
+    @media (min-width: 992px) {
+      margin-top: 0px;
+    }
+  }
+}

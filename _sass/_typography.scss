@@ -370,9 +370,6 @@ a.footnote {
 .message {
   text-align: center;
   margin: 0 auto;
-  @media (min-width: 992px) {
-    min-height: 525px;
-  }
   p {
     font-family: $quote-normal;
     font-size: 20px;

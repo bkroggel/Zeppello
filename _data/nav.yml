@@ -1,6 +1,8 @@
 footer_navs:
   - name: Home
     link: /
+  - name: About
+    link: /about
   - name: Work
     link: /work
   - name: Blog
@@ -22,17 +24,17 @@ full:
     link: /
   nav_4:
     name: Work
-    link: /work
+    link: /work/
   nav_5:
     name: More
     link: #already saved for dropdown
   dropdowns:
     - name: Contact
-      link: "#"
-      target: intern
-      scrolling: true
+      link: /contact
+      target: extern
+      scrolling: false
     - name: Impressum
-      link: "#"
+      link: /impressum/
       target: intern
       scrolling: true
 
@@ -59,7 +61,7 @@ mobile:
       target: intern
       scrolling: true
     - name: Contact
-      link: "#"
+      link: "/contact/
     - name: Impressum
       link: "#"
 
