@@ -5,15 +5,14 @@
     <input type="hidden" name="_subject" value="New Message via {{page.title}}">
     <input type="text" name="_honey" value="" style="display:none">
     <input name="Name" placeholder="Your Name*"></input>
+    <input type="hidden" name="_valid[Name]" value="required">
   </div>
-  
   <br>
   <div>
     <label for="message">Message:</label>
     <br>
     <textarea class="message" name="message"></textarea>
   </div>
-  
   <div class="btn-frame-centered">
     <input class="btn-standart btn-send" type="submit" value="Send" />
   </div>
