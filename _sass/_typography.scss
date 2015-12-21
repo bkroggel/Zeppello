@@ -390,3 +390,18 @@ a.footnote {
     }
   }
 }
+
+.contact_me {
+  textarea {
+    font-size: 17px;
+    font-family: $readable;
+  }
+  input {
+    font-size: 15px;
+    font-family: $primary-nav-font;
+    letter-spacing: 0.1em;
+    @media(min-width: 772px) {
+      font-size: 20px;
+    }
+  }
+}

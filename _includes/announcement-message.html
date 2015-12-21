@@ -1,6 +1,6 @@
 <div class="blog-posts">
 <div class="message">
-  <h1>{% if page.title == 404 %} four<span>zero</span>four {% else %}{{page.title}}{% endif %}</h1>
+  <h1>{% if page.title == 404 %} four<span>zero</span>four {% elsif page.title == 'Success' %}Thank You!{% else %}{{page.title}}{% endif %}</h1>
   <div class="blog-posts--content">
     <p>{{page.content}}</p>
   </div>
