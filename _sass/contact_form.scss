@@ -1,0 +1,48 @@
+.contact_me {
+  form {
+    width: 90%;
+    margin: 0 auto;
+    @media (min-width: 992px) {
+      width: 700px;
+    }
+  }
+  textarea {
+    text-align: left;
+    border: none;
+    outline: none;
+    overflow: auto;
+    font-size: 17px;
+    font-family: $readable;
+  }
+  textarea.message {
+    width: 100%;
+    min-height: 200px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: $main-color;
+    padding: 10px;
+    &:focus {
+      border-color: black;
+    }
+  }
+  input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid $main-color;
+    resize: none;
+    margin-top: 20px;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    font-family: $primary-nav-font;
+    letter-spacing: 0.1em;
+    &:focus {
+      border-color: black;
+      outline:none;
+    }
+  }
+  .btn-send {
+    width: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

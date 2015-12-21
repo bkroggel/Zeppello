@@ -2,7 +2,8 @@
    ========================================================================== */
 
  .btn-standart,
- .btn-standart a {
+ .btn-standart a,
+ form input.btn-standart {
   color: black;
   font-family: 'Karla';
   font-weight: 400;
@@ -12,11 +13,16 @@
   border: 2px solid black;
   padding: 3px 6px;
   font-size: 14px;
+  -webkit-transition: all 0.2s ease-in-out; 
+  -moz-transition: all 0.2s ease-in-out; 
+  -o-transition: all 0.2s ease-in-out; 
+  transition: all 0.2s ease-in-out;
 }
 
 .btn-standart:hover,
 .btn-standart:active,
-.btn:focus {
+.btn:focus,
+form input.btn-standart:hover, {
   background-color: black;
   color: white;
   border-color: black;

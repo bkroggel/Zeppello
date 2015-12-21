@@ -67,8 +67,10 @@
 h3.year-date,
 p.timePosted,
 .blog-posts h2,
-.blog--featured h3 {
+.blog--featured h3,
+form label {
   font-family: $primary-nav-font;
+  font-weight: 400;
   text-transform: uppercase;
   color: rgba(109, 109, 109, 0.8);
   font-size: 14px;

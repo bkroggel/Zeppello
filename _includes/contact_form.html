@@ -1,0 +1,20 @@
+<form action="http://mailthis.to/bkroggel" method="post">
+  <div>
+    <input type="email" name="email" id="name" placeholder="Your email address*" />
+    <input type="hidden" name="_replyto" value="%email">
+    <input type="hidden" name="_subject" value="New Message via {{page.title}}">
+    <input type="text" name="_honey" value="" style="display:none">
+    <input name="Name" placeholder="Your Name*"></input>
+  </div>
+  
+  <br>
+  <div>
+    <label for="message">Message:</label>
+    <br>
+    <textarea class="message" name="message"></textarea>
+  </div>
+  
+  <div class="btn-frame-centered">
+    <input class="btn-standart btn-send" type="submit" value="Send" />
+  </div>
+</form>
