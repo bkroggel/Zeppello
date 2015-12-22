@@ -57,11 +57,9 @@ mobile:
     name: More
   dropdowns: #add name and link, also add target(intern, extern) and scrolling(true, false)
     - name: About me
-      link: "#about"
-      target: intern
-      scrolling: true
+      link: /about/
     - name: Contact
-      link: "/contact/
+      link: /contact/
     - name: Impressum
-      link: "#"
+      link: /impressum/
 
