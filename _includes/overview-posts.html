@@ -19,9 +19,9 @@
 
 
   <div class="blog-posts overview-posts">
-    <h2>{% assign d = post.date | date: "%-d" %}{{ post.date | date: "%b %d" }} · {{ post.date | date: "%Y" }}</h2>
+    <h5>{% assign d = post.date | date: "%-d" %}{{ post.date | date: "%b %d" }} · {{ post.date | date: "%Y" }}</h5>
     {%if post.author%}
-    <h2>by {{post.author}}</h2>
+    <h5>by {{post.author}}</h5>
     {% endif %}
 
     <a class="blog-posts--title" href="{{ post.url }}"><h1 class="posts-title">{{ post.title }}</h1></a>

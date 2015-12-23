@@ -16,9 +16,9 @@
 {% endif %}
 
 <section class="blog-posts">
-  <h2>{% assign d = post.date | date: "%-d" %}{{ post.date | date: "%b %d" }} · {{ post.date | date: "%Y" }}</h2>
+  <h5>{% assign d = post.date | date: "%-d" %}{{ post.date | date: "%b %d" }} · {{ post.date | date: "%Y" }}</h5>
   {%if page.author%}
-  <h2>by {{page.author}}</h2>
+  <h5>by {{page.author}}</h5>
   {% endif %}
   <div class="blog-posts--title"><h1 class="posts-title">{{ page.title }}</h1></div>
   <div class="blog-posts--tags">

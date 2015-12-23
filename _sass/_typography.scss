@@ -66,7 +66,7 @@
 .blog h3,
 h3.year-date,
 p.timePosted,
-.blog-posts h2,
+.blog-posts h5,
 .blog--featured h3,
 form label {
   font-family: $primary-nav-font;
@@ -85,17 +85,17 @@ p.timePosted {
   margin: 20px 0 0;
 }
 
-.blog-posts h2:last-of-type {
+.blog-posts h5:last-of-type {
   margin-bottom: 10px;
   margin-top: 0px;
 }
 
-.blog-posts h2:first-of-type {
+.blog-posts h5:first-of-type {
   margin-top: 20px;
   margin-bottom: 5px;
 }
 
-.blog-posts h2 {
+.blog-posts h5 {
   font-size: 10px;
   @media (min-width: 768px) {
     font-size: 11px;
@@ -222,8 +222,7 @@ p.timePosted {
 .blog-posts h2,
 .blog-posts h3,
 .blog-posts h4,
-.blog-posts h5,
-.blog-posts h6 {
+.blog-posts h5 {
   font-family: $primary-text-font;
 }
 
@@ -402,6 +401,17 @@ a.footnote {
     letter-spacing: 0.1em;
     @media(min-width: 772px) {
       font-size: 20px;
+    }
+  }
+}
+
+.blog-posts--content {
+  h2 {
+    font-family: $primary-text-font;
+    font-size: 18px;
+    text-transform: uppercase;
+    @media (min-width:786px) {
+      font-size: 24px;
     }
   }
 }
