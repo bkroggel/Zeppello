@@ -1,8 +1,7 @@
 ---
 title: "Inital Testpost"
 author: Bastian Kroggel
-tags: [test, gusti, schlumpf]
-featured: true
+tags: [about]
 showcase: So, dass ist dann mal mein erster Testtext hier, den ich jetzt gleich mal noch mit ein wenig Minion Geschwafel unterstützen werde.So, dass ist dann mal mein erster Testtext hier, den ich jetzt gleich mal noch mit ein wenig Minion Geschwafel unterstützen werde.
 ---
 ![What a picture](/assets/img/work2.jpg)

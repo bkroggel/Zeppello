@@ -1,8 +1,4 @@
-- slug: test
-  name: test
-- slug: schlumpf
-  name: schlumpf
-- slug: gusti
-  name: gusti
+- slug: about
+  name: about
 - slug: work
   name: work
