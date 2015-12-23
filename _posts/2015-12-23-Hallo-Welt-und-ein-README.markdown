@@ -1,11 +1,9 @@
 ---
 title: Hallo Welt
 author: Bastian Kroggel
-date: 2015-12-23 16:53:17
+date: 2015-12-24 16:53:17
 tags: [about]
-showcase: 
-project_date:
-project_picture: 
+showcase: Erste Worte und meine Einführung in die weiten Welten des Blogging-Daseins. Wer nach dem Was, Wo und Warum sucht wird Antworten finden. Wer nicht - der trotzdem. Wenig Inhalt, dafür umso mehr Worte.
 ---
 Hallo und Herzlich Willkommen - oder wie es dem tagesaktuellen Geschehen wohl eher angemessen ist *Frohe Weihnachten, Feliz Navidad, Joyeux Noël, Buon Natale und natürlich Merry Christmas*.
 
