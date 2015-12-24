@@ -1,7 +1,7 @@
 ---
 title: PPE-Conference
 author: Bastian Kroggel
-date: 2015-12-24 22:08:13
+date: 2015-12-24 18:31:00
 tags: [work]
 showcase: Erstes Projekt für die PPE-Conference des SPE-Lehrstuhls der Zeppelin-Universität Friedrichshafen. Minimalistische Struktur die den Fokus auf die zentralen Punkte und Kernbotschaften des Organisationsteams legen. Singlescrolling mit integriertem Impressum.
 project_date: 2015

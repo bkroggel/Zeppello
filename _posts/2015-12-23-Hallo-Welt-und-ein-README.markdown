@@ -1,7 +1,7 @@
 ---
 title: Hallo Welt
 author: Bastian Kroggel
-date: 2015-12-24 16:53:17
+date: 2015-12-24 18:30:00
 tags: [about]
 showcase: Erste Worte und meine Einführung in die weiten Welten des Blogging-Daseins. Wer nach dem Was, Wo und Warum sucht wird Antworten finden. Wer nicht - der trotzdem. Wenig Inhalt, dafür umso mehr Worte.
 ---

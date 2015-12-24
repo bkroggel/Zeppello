@@ -1,7 +1,7 @@
 ---
 title: Website
 author: Bastian Kroggel
-date: 2015-12-24 14:09:30
+date: 2015-12-24 18:32:00
 tags: [work, about]
 showcase: Eigenes Projekt, dass Showcase, Blog, Anlaufstelle in allen mich betreffenden Angelegenheiten und ein klein wenig Sandkasten zum Ausprobieren und Neuentdecken unter einem Dach vereinen soll. Dieser Post dient damit als Übersicht über (fast) alle auf dieser Seite verwendeten Ressourcen.
 project_date: 2015
