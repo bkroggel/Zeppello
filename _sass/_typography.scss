@@ -404,19 +404,34 @@ a.footnote {
 }
 
 .blog-posts--content {
-  h2 {
+  h2,
+  h2>a {
     font-family: $primary-text-font;
     font-size: 18px;
     text-transform: uppercase;
+    color: black;
     @media (min-width:786px) {
       font-size: 24px;
     }
+  }
+  h2>a:hover,
+  h2>a:visited,
+  h2>a:focus {
+    text-decoration: none;
   }
   ol {
     font-family: $primary-nav-font;
     font-size: 15px;
     @media(min-width: 768px){
       font-size: 19px;
+    }
+  }
+  hr {
+    border-top: 1px solid $main-color;
+    width: 90%;
+    margin: 5px auto 20px;
+    @media(min-width: 768px){
+      width: 700px;
     }
   }
 }
