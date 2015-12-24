@@ -59,7 +59,7 @@ mobile:
       link: /impressum/
 ---
 
-Hallo zusammen und Herzlich Willkommen oder wie es die stimmungsvolle Atmosphäre der weihnachtslichen Bräuche wohl eher nahe legt: Frohe Weihnachten.
-Wer unabsichtlich hier aufkreuzt und im ersten Moment gar nicht weiß, wie ihm geschieht, dem sei versichert. Keine Sorge, hier passiert nichts böses und sämmtliche Beiträge sind garantiert SFW. Mein Anliegen ist es schlicht und einfach meine persönliche Präsenz im World Wide Web nicht ausschließlich der allgegenwärtigen Social Networking Plattformen zu überlassen, sondern die Möglichkeiten zu nutzen, die ich mir einerseits selbst erarbeiten kann, andererseits aber auch jederzeit meinen Bedürfnissen entsprechend modifizieren darf.
-An all diejenigen, die sich ganz offensichtlich nicht verlaufen haben und absichtlich und mit vollem ernst den Schritt über die Schwelle wagen, den kann ich nur sagen: Lauft mir nicht weg und tobt euch aus. Anregung, Kritik, Meinungen und Wünsche bitte in Richtung [Kontakt Formular](/contact/).  
+Hallo zusammen und Herzlich Willkommen oder wie es die stimmungsvolle Atmosphäre der weihnachtlichen Bräuche wohl eher nahe legt: Frohe Weihnachten.
+Wer unabsichtlich hier aufkreuzt und im ersten Moment gar nicht weiß, wie ihm geschieht, dem sei versichert. Keine Sorge, hier passiert nichts böses und sämmtliche Beiträge sind garantiert SFW. Mein Anliegen ist es schlicht und einfach meine persönliche Präsenz im World Wide Web nicht ausschließlich den allgegenwärtigen Social Networking Plattformen zu überlassen, sondern die Möglichkeiten zu nutzen, die ich mir einerseits selbst erarbeiten kann, andererseits aber auch jederzeit meinen Bedürfnissen entsprechend modifizieren darf.
+An all diejenigen, die sich ganz offensichtlich nicht verlaufen haben und absichtlich und in vollem Ernst den Schritt über die Schwelle wagen, den kann ich nur sagen: Lauft mir nicht weg und tobt euch aus. Anregung, Kritik, Meinungen und Wünsche bitte in Richtung [Kontakt Formular](/contact/).  
 Man sieht sich.
