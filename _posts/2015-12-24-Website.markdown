@@ -1,0 +1,17 @@
+---
+title: Website
+author: Bastian Kroggel
+date: 2015-12-24 14:09:30
+tags: [work, about]
+showcase: Eigenes Projekt, dass Showcase, Blog, Anlaufstelle in allen mich betreffenden Angelegenheiten und ein klein wenig Sandkasten zum Ausprobieren und Neuentdecken unter einem Dach vereinen soll. Dieser Post dient damit als Übersicht über (fast) alle auf dieser Seite verwendeten Ressourcen.
+project_date: 2015
+project_picture: /assets/img/page/blog/2015/December/main-website.jpg
+---
+![Website on MacBook Screen](/assets/img/page/blog/2015/December/main-website-mockup.jpg)
+{:.img100}
+
+Was lange Zeit auf meinem Rechner vor sich hin schlummerte, ist endlich bereit den Schritt an die frische Luft zu tun und den kleinen Zeh vorsichtig in das nasse Kühl der Öffentlichkeit zu strecken.
+
+![Underconstruction Bastian Kroggel](/assets/img/page/blog/2015/December/underconstruction.jpg)
+{:.left50}
+[bastiankroggel.com](http://bastiankroggel.com) ist online. Und das nicht nur mit der schnöden, verheißungsvollen Nachricht, dass was im Gange sei - nein - jetzt in vollem Glanz und ganzer Pracht.

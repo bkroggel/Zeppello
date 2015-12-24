@@ -62,6 +62,21 @@ pre {
       height: 600px;
     }
   }
+  .img100 {
+    @media(min-width: 768px) {
+    width: 100%;
+    }
+  }
+  .img100 img {
+    object-fit: contain;  
+    @media (min-width: 768px) {
+      max-height: 400px;
+    }
+    @media (min-width: 992px) {
+      max-height: 600px;
+      margin: 20px 0 20px 0;
+    }
+  }
   .left50 img,
   .left25 img,
   .right50 img,
