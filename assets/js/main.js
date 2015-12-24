@@ -23,6 +23,7 @@ $(document).ready(function(){
   // adds zoom option to all pictures within blog post EXCEPT for cover-images
   $('.blog-posts--content img').attr('data-action', 'zoom');
   $('.blog-posts--content .cover img').removeAttr('data-action', 'zoom');
+  $('.blog-posts--content .img100 img').removeAttr('data-action', 'zoom');
 
   //scroll function to show a smooth animation while automatically scrolling to item
   var $root = $('html, body');

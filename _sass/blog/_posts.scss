@@ -68,13 +68,14 @@ pre {
     }
   }
   .img100 img {
-    object-fit: contain;  
+    object-fit: contain;
+    margin: 10px 0 10px 0; 
     @media (min-width: 768px) {
       max-height: 400px;
     }
     @media (min-width: 992px) {
       max-height: 600px;
-      margin: 20px 0 20px 0;
+      margin: 20px 0 20px 0; 
     }
   }
   .left50 img,

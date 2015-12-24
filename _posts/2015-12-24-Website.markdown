@@ -11,7 +11,10 @@ project_picture: /assets/img/page/blog/2015/December/main-website.jpg
 {:.img100}
 
 Was lange Zeit auf meinem Rechner vor sich hin schlummerte, ist endlich bereit den Schritt an die frische Luft zu tun und den kleinen Zeh vorsichtig in das nasse Kühl der Öffentlichkeit zu strecken.
+<!-- more -->
 
 ![Underconstruction Bastian Kroggel](/assets/img/page/blog/2015/December/underconstruction.jpg)
 {:.left50}
-[bastiankroggel.com](http://bastiankroggel.com) ist online. Und das nicht nur mit der schnöden, verheißungsvollen Nachricht, dass was im Gange sei - nein - jetzt in vollem Glanz und ganzer Pracht.
+[bastiankroggel.com](http://bastiankroggel.com) ist online. Und das nicht nur mit der schnöden, verheißungsvollen Nachricht, dass etwas im Gange sei - nein - jetzt in vollem Glanz und ganzer Pracht.
+
+Nach und nach wird hier 
