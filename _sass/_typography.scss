@@ -250,14 +250,24 @@ p.timePosted {
 }
 
 .blog-posts p a,
-.blog-posts p a:visited {
+.author-area a,
+.about .text a,
+.twitter .tweet a {
   color: rgb(199, 37, 78);
+  &:visited {
+    color: rgb(199, 37, 78);
+  }
 }
 
-.blog-posts p a:hover,
-.blog-posts p a:active {
-  color: rgb(110, 110, 110);
-  text-decoration: none;
+.blog-posts p a,
+.author-area a,
+.about .text a,
+.twitter .tweet a {
+  &:hover,
+  &:active {
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+  }
 }
 
 h1.posts-title,
