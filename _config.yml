@@ -4,7 +4,7 @@ admin_user: Bastian Kroggel
 email: mail@bastiankroggel.com
 description: There is currently no description, but I am working on it.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "http://www.bastiankroggel.com" # the base hostname & protocol for your site
 favicon: /assets/img/site/favicon.png
 theme-color: "#363636" #Theme color for Google Chrome for Android
 twitter_username: derKroggel

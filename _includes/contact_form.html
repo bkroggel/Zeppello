@@ -6,7 +6,7 @@
     <input type="text" name="_honey" value="" style="display:none">
     <input name="name" placeholder="Your name*"></input>
     <input type="hidden" name="_valid[name]" value="required">
-    <input type="hidden" name="_after" value="{{ "http://localhost:4000/contact/success/" | prepend: site.baseurl }}">
+    <input type="hidden" name="_after" value="{{ "/contact/success/" | prepend: site.url }}">
   </div>
   <br>
   <div>
