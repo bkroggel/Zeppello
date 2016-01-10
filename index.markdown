@@ -1,6 +1,6 @@
 ---
 layout: landing
-big_picture: img-forest.jpg
+big_picture: skyscraper.jpg
 header:
   first_line: Merry
   second_line: Christmas
