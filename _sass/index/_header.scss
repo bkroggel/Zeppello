@@ -26,11 +26,11 @@
 }
 
 .big-picture svg {
-  fill: rgb(47, 47, 47);
+  fill: white;
   overflow: visible;
   width: 80%;
   height: auto;
-  padding-bottom: 15px;
+  padding: 15px; // padding for background color - disable if there is no background
   margin-top: 75px;
   @media (min-width: 992px) {
     margin-top: 0;
@@ -38,6 +38,10 @@
   @media (min-width: 768px) {
     width: 500px;
   }
+}
+
+.big-picture .vertical-fit svg {
+  background: rgb(47, 47, 47);
 }
 
 .header-frame {
