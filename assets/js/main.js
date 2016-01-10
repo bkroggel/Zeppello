@@ -48,11 +48,11 @@ $(document).ready(function(){
   $header.css('min-height', h);
 
 // snowflakes for chirstmas (just 100 on mobile and 400 on bigger screens)
-  if($(window).width() >= 768) {
-    $('.big-picture').snowfall({flakeCount : 200, maxSize : 3});
-  } else {
-    $('.big-picture').snowfall({flakeCount : 100, maxSize : 2});
-  }
+//  if($(window).width() >= 768) {
+//    $('.big-picture').snowfall({flakeCount : 200, maxSize : 3});
+//  } else {
+//    $('.big-picture').snowfall({flakeCount : 100, maxSize : 2});
+//  }
   
 // adds stuck or removes stuck class (waypoint)
   var nav_container = $('.nav-height');
