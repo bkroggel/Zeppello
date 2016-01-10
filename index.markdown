@@ -1,6 +1,10 @@
 ---
 layout: landing
-big_picture: skyscraper.jpg
+big_picture:
+  pic: skyscraper.jpg
+  by:
+    photographer: Matthew Wiebe | Unsplash
+    url: https://unsplash.com/matthewwiebe   
 header:
   first_line: Merry
   second_line: Christmas

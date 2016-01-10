@@ -68,13 +68,22 @@ h3.year-date,
 p.timePosted,
 .blog-posts h5,
 .blog--featured h3,
-form label {
+form label,
+.big-picture .photographer a {
   font-family: $primary-nav-font;
   font-weight: 400;
   text-transform: uppercase;
   color: rgba(109, 109, 109, 0.8);
   font-size: 14px;
   margin: 40px 0 10px;
+}
+
+.big-picture .photographer a {
+  color: white;
+  font-size: 10px;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 h3.year-date {

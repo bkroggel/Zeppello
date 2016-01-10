@@ -1,6 +1,6 @@
 <header>
   
-  <div class="big-picture" style="background:url(../assets/img/page/index/{{page.big_picture}}) no-repeat center;background-size:cover">
+  <div class="big-picture" style="background:url(../assets/img/page/index/{{page.big_picture.pic}}) no-repeat center;background-size:cover">
 
     {% include paradeiser.html %}
 
@@ -42,6 +42,9 @@
 
     </div>
     <!-- {% include santaclaus.html %} -->
+    <div class="photographer">
+      <a href="{{page.big_picture.by.url}}" target="_blank">by {{page.big_picture.by.photographer}}</a>
+    </div>
   </div>
   
   {% include navigation.html %}
