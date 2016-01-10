@@ -26,7 +26,7 @@ Außerordentlich leicht und einfach in der Handhabung ist das "Snowfall JQuery-P
 Man sollte sich gut überlegen, ob man seinen Besuchern ein Schnegestöber der allerfeinsten Güteklasse präsentiert oder doch nach dem weniger ist mehr Prinzip agieren möchte. So schön das Spektakel auch ist, man bedenke den entsprechend Hohen Aufwand, den der Rechner im Hintergrund zu bewältigen hat. Darunter leidet gerne die Performance (jap...es geht auch am Smartphone...aber eben in Maßen genießen) und die UserExperience gleich mit. Wem das nicht egal ist, der hält sich - frei nach Da Vinci - an die Einfachheit als höchstes aller Gefühle.  
 [Github](https://github.com/loktar00/JQuery-Snowfall) • [Hompage](http://www.somethinghitme.com/2012/12/08/snowfall-1-6/)
 
-## [Papai Noel - der Weihnachtsmann](ttp://codepen.io/igordesouzamorais/pen/MYyVXQ)
+## [Papai Noel - der Weihnachtsmann](http://codepen.io/igordesouzamorais/pen/MYyVXQ)
 Kudos auch an [Igor de souza morais](http://codepen.io/igordesouzamorais/), dessen Pen [Papai Noel 2014](http://codepen.io/igordesouzamorais/pen/MYyVXQ) den weihnachtlich-winterlichen Auftritt der Seite komplettiert. Eine wirklich schöne Arbeit, die sich wunderbar mit dem Snowfall-Plugin verbinden lässt.
 
 *Fürs erste ist es das nun - mehr folgt aber bestimmt. Soviel sei schonmal gesagt, es gibt durchaus noch den ein oder anderen Punt, den es näher zu beleuchten gibt, der Post wird also aktualisiert*
