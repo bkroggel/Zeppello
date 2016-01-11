@@ -6,8 +6,8 @@ big_picture:
     photographer: Matthew Wiebe | Unsplash
     url: https://unsplash.com/matthewwiebe   
 header:
-  first_line: Merry
-  second_line: Christmas
+  first_line: Happy
+  second_line: New Year
 
 full:
   nav_1:
