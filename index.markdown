@@ -1,10 +1,12 @@
 ---
 layout: landing
 big_picture:
-  pic: skyscraper.jpg
+  pic: forestII.jpg
   by:
-    photographer: Matthew Wiebe | Unsplash
-    url: https://unsplash.com/matthewwiebe   
+    photographer: Frances Gunn | Unsplash
+    url: https://unsplash.com/francesgunn
+  name_background:
+  custom_name: "#EBC46E" #set name_background to "custom"
 header:
   first_line: Happy
   second_line: New Year

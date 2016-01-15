@@ -5,7 +5,7 @@
     {% include paradeiser.html %}
 
     <div class="vertical-fit">
-      <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 502.569 35.821" width="100%" enable-background="new 0 0 502.569 35.821" xml:space="preserve">
+      <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 502.569 35.821" width="100%" enable-background="new 0 0 502.569 35.821" xml:space="preserve" {% if page.big_picture.name_background == "black" %}style="fill:white; padding:15px; background:black"{% endif %}{% if page.big_picture.name_background == "custom_name" and page.big_picture.name_background != "black" %}style="fill:{{page.big_picture.custom_name}}"{% endif %}>
         <defs>
           <filter id="dropshadow" height="150%">
             <feGaussianBlur in="SourceAlpha" stdDeviation="0"/> <!-- stdDeviation is how much to blur -->
