@@ -69,6 +69,12 @@
   padding: 40px 20px;
   background-color: white;
   overflow: hidden;
+  @media (min-width: 768px) {
+    padding: 30px 35px 20px;
+  }
+  @media (min-width: 992px) {
+    padding: 30px
+  }
 }
 
 .overlay:hover .paper-background {
@@ -79,8 +85,6 @@
   opacity: 1;
 }
 
-@media (min-width: 768px) {
-  .paper-background {
-    padding: 60px;
-  }
-}
+
+
+
