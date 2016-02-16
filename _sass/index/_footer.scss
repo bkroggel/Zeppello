@@ -50,9 +50,12 @@ ul.footer--nav {
   color: black;
 }
 
-.footer--nav li {
-  &:after {
-    content: ' | ';
+@media (min-width: 350px) {
+  .footer--nav li {
+    &:after {
+      content: ' | ';
+      font-weight: 100;
+    }
   }
 }
 

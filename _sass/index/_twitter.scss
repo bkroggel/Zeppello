@@ -3,10 +3,11 @@
 
 .twitter-frame {
   width: 100%;
+  background: rgba(0,0,0,0.05);
 }
 
 #twitter-posts .row {
-  padding: 15px;
+  padding: 30px 15px;
 }
 
 #twitter-posts .twitter-cols {
@@ -74,7 +75,7 @@ p.interact {
   }
 
   .twitter-frame {
-    border: 2px solid $main-color;
+    //border: 2px solid $main-color;
     //border-bottom: none;
   }
 

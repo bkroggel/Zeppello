@@ -1,6 +1,5 @@
 /* 0.3 BUTTONS
    ========================================================================== */
-
  .btn-standart,
  .btn-standart a,
  form input.btn-standart {
@@ -18,6 +17,10 @@
   -o-transition: all 0.2s ease-in-out; 
   transition: all 0.2s ease-in-out;
 }
+
+.btn-twitter {
+  background: none;
+ }
 
 .btn-standart:hover,
 .btn-standart:active,
