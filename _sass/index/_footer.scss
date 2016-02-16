@@ -2,13 +2,12 @@
    ========================================================================== */
 
 .footer {
-  background-color: $main-color;
-  min-height: 200px;
-  margin-top: 15px;
+  margin-top: 50px;
   position: relative;
   width: 100%;
   display: table;
 }
+
 
 .footer--main {
   text-align: center;
@@ -16,53 +15,49 @@
   vertical-align: middle;
 }
 
-.btn-footer {
+.footer-frame {
+  margin: 5px 0 5px;
+}
+
+.icon-social {
   border-color: white;
-  color: white;
+  color: black;
   background: none;
-  margin: 0 5px 20px;
+  margin: 0 15px 20px;
+  font-size: 23px;
 }
 
-.btn-footer:last-of-type {
-  margin: 0 0 20px 5px; 
+.icon-social:last-of-type {
+  margin: 0 0 20px 15px; 
 }
 
-.btn-footer:first-of-type {
-  margin: 0 5px 20px 0;
+.icon-social:first-of-type {
+  margin: 0 15px 20px 0;
 }
 
-.btn-footer:hover,
-.btn-footer:active,
-.btn-footer:focus,
-.btn-frame-centered-twitter .btn-tweets:hover {
-  background-color: white;
+.icon-social:hover {
   color: $main-color;
-  border-color: white;
-}
-
-.footer--logo {
-  width: 50px;
-  height: 50px;
-  margin: 20px auto 0;
 }
 
 .footer--logo svg {
-  fill: white;
+  fill: black;
+  width: 150px;
 }
 
 ul.footer--nav {
   padding: 0;
-  margin: 20px 0 20px;
+  margin: 0px 0 5px;
+  color: black;
 }
 
 .footer--nav li {
-  transition: all .5s;
-  letter-spacing: 2px;
+  &:after {
+    content: ' | ';
+  }
 }
 
-.footer--nav:hover li {
-  margin: 0 5px 0;
-  transition: all .5s;
+.footer--nav li:last-of-type:after {
+  content: '';
 }
 
 @media (min-width: 768px) {
