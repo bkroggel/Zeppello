@@ -1,10 +1,10 @@
 ---
 layout: landing
 big_picture:
-  pic: forestII.jpg
+  pic: lonely_street.jpg
   by:
-    photographer: Frances Gunn | Unsplash
-    url: https://unsplash.com/francesgunn
+    photographer: Eric Huang | Unsplash
+    url: https://unsplash.com/erichuang78910
   name_background:
   custom_name: "#EBC46E" #set name_background to "custom"
 header:
