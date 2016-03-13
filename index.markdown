@@ -1,15 +1,15 @@
 ---
 layout: landing
 big_picture:
-  pic: lonely_street.jpg
+  pic: blue.jpg
   by:
-    photographer: Eric Huang | Unsplash
-    url: https://unsplash.com/erichuang78910
+    photographer: Tim Marshall | Unsplash
+    url: https://unsplash.com/timmarshall
   name_background:
   custom_name: "#EBC46E" #set name_background to "custom"
 header:
   first_line: Happy
-  second_line: New Year
+  second_line: Easter
 
 full:
   nav_1:
