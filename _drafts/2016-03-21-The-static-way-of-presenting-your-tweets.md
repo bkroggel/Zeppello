@@ -1,7 +1,7 @@
 ---
 title: "The static way of presenting your tweets"
 author: Bastian Kroggel
-tags: [about]
+tags: [about, english]
 date: 2016-03-21
 showcase: While twitter blocked the old ways of presenting your tweets on your website with forcing you to use the new API and OAUTH process, there is actually a pretty nifty javascript hack to publish your short thoughts without any server side actions.
 ---
@@ -29,7 +29,7 @@ As you might have guessed (for example by reading the title of this post) I do n
 
 So let me introduce you to the glorious javascript approach:
 
-## [Twitter-Post-Fetcher by Jason Mayes](http://www.jasonmayes.com/projects/twitterApi)
+# [Twitter-Post-Fetcher by Jason Mayes](http://www.jasonmayes.com/projects/twitterApi)
 
 Alright. Now you've got the chance to take a look at your new way of embedding twitter timelines, but let me tell you a few things about how this JavaScript component works (and can be used) and why it is a real game changer for any user of static site generators.
 
@@ -44,6 +44,18 @@ What you should have recognized. I was *looking for* individualism. I've *got* i
 To be honest, while this nice looking javascript hack has a lot of advantages there are definitely a few downsides you should know how to deal with.
 
 
-First of all. **It is javascript**. Wow, what a surprise. While most of you won't think of it as a disadvantage it disqualifys Twitter-Post-Fetcher as an option for users who don't have any basic knowledge of the most common web developing languages. HTML, CSS, and Javascript shouldn't be strange acronyms for you. Bear in mind that there isn't any way to modify (or even set up) your personalized version of the component without writing some (yeah…very basic) lines of javascript and html code.
+First of all. **It is javascript**. Wow, what a surprise. While most of you won't think of it as a disadvantage it disqualifys Twitter-Post-Fetcher as an option for users who don't have any basic knowledge of the most common web developing languages. HTML, CSS, and Javascript shouldn't be strange acronyms for you. Bear in mind that there isn't any way to modify (or even set up) your personalized version of the component without writing some (yeah…very basic) lines of javascript and html code.  
+
+## The simple example
+
+```javascript
+var config1 = {
+  "id": '345170787868762112',
+  "domId": 'example1',
+  "maxTweets": 1,
+  "enableLinks": true
+};
+twitterFetcher.fetch(config1);
+```
 
 [^1]: That is a bad day for you fundamental beliefs. Server side actions are a *must* for any OAUTH process. I am sorry for that.
