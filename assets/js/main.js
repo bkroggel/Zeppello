@@ -16,7 +16,7 @@ $(document).ready(function(){
   wow.init();
 
   // looks for all links in :blog-posts--content and adds the attribute target:_blank to open the link in another window
-  $('.blog-posts--content a').attr('target', '_blank');
+  //$('.blog-posts--content a').attr('target', '_blank');
   $('.blog-posts--content a.reversefootnote').removeAttr('target', '_blank');
 
   

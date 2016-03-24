@@ -4,21 +4,18 @@ author: Bastian Kroggel
 tags: [about]
 showcase: So, dass ist dann mal mein erster Testtext hier, den ich jetzt gleich mal noch mit ein wenig Minion Geschwafel unterstützen werde.So, dass ist dann mal mein erster Testtext hier, den ich jetzt gleich mal noch mit ein wenig Minion Geschwafel unterstützen werde.
 ---
-![What a picture](/assets/img/work2.jpg)
-{:.cover}
+
 
 So, dass ist dann mal mein erster Testtext hier, den ich jetzt gleich mal noch mit ein wenig Minion Geschwafel unterstützen werde.
 [jetzt noch ein Link](https://github.com/bkroggel)
 <!-- more -->
 Minions ipsum tulaliloo bee do bee do bee do belloo! Me want bananaaa! Potatoooo poopayee butt la bodaaa la bodaaa ti aamoo! Jiji po kass poulet tikka masala tulaliloo belloo! La bodaaa bee do bee do bee do jeje aaaaaah. Daa aaaaaah daa daa me want bananaaa! Ti aamoo! Ti aamoo! Aaaaaah jiji. Pepete tulaliloo bananaaaa wiiiii pepete belloo!
 
-![What a picture](/assets/img/work4.jpg)
-{:.left25}
+
 
 Bananaaaa aaaaaah para tú bappleees. Jiji daa underweaaar hana dul sae butt potatoooo butt. Bee do bee do bee do gelatooo hahaha poopayee potatoooo bappleees butt. Gelatooo pepete poopayee poopayee belloo! Wiiiii la bodaaa baboiii underweaaar daa chasy daa. Wiiiii bappleees jeje pepete. Hana dul sae aaaaaah bananaaaa underweaaar tank yuuu! La bodaaa. Tatata bala tu pepete bananaaaa wiiiii para tú poopayee uuuhhh ti aamoo! Pepete potatoooo. Me want bananaaa! me want bananaaa! Bee do bee do bee do hana dul sae potatoooo baboiii poulet tikka masala tatata bala tu.
 
-![What a picture](/assets/img/work3.jpg)
-{:.right25}
+
 
 Poulet tikka masala bappleees wiiiii ti aamoo! Bappleees underweaaar bee do bee do bee do para tú. Bananaaaa bappleees tatata bala tu la bodaaa hahaha daa tank yuuu! Baboiii. Hahaha tank yuuu! Butt jeje. Para tú me want bananaaa!
 That is actually fucking nice[^1], was passt jetzt daran nicht?[^2]
