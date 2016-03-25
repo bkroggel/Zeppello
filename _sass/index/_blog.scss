@@ -48,6 +48,18 @@
   }
 
   .col-inner {
-    padding: 100px 13% 100px;
+    padding: 100px 10% 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-inner {
+    padding: 100px 0 100px;
+    h1,
+    p {
+      width: 380px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
