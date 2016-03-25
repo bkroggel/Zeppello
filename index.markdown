@@ -1,10 +1,10 @@
 ---
 layout: landing
 big_picture:
-  pic: blue.jpg
+  pic: green.jpg
   by:
-    photographer: Tim Marshall | Unsplash
-    url: https://unsplash.com/timmarshall
+    photographer: Claudel Rheault | Unsplash
+    url: https://unsplash.com/claudelrheault
   name_background:
   custom_name: "#EBC46E" #set name_background to "custom"
 header:
