@@ -27,7 +27,7 @@ $(document).ready(function(){
 
   //scroll function to show a smooth animation while automatically scrolling to item
   var $root = $('html, body');
-  $('.paradeiser .scroll-nav, nav a').click(function() {
+  $('.paradeiser .scroll-nav, nav a, .blog-posts--content a').click(function() {
       var href = $.attr(this, 'href');
       $root.animate({
           scrollTop: $(href).offset().top
