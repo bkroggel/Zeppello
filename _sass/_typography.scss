@@ -59,6 +59,10 @@
   display: table;
   margin: 0 auto;
   line-height: 30px;
+  @media (min-width: 768px) {
+    margin: 0;
+    line-height: 1.1;
+  }
 }
 
 .section-header h3,
@@ -114,6 +118,10 @@ p.timePosted {
 .section-header h3 {
   margin-left: 20px;
   margin-right: 20px;
+  @media (min-width: 768px) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
 .about h1 {
@@ -156,6 +164,23 @@ p.timePosted {
 .work p {
   font-size: 13px;
   line-height: 17px;
+  font-size: 3.1vw;
+  line-height: 5vw;
+  @media (min-width: 560px) {
+    font-size: 17px;
+    line-height:30px;
+  }
+  @media (min-width: 768px) {
+    font-size: 1.6vw;
+    line-height: 2.3vw;
+  }
+  @media (min-width: 1200px) {
+    font-size: 19px;
+  }
+
+  @media (min-width: 1400px) {
+    line-height: 35px;
+  }
 }
 
 .blog h1,
@@ -354,19 +379,8 @@ a.footnote {
 }
 
 @media (min-width: 768px) {
-  .big-picture h1 {
-    margin: 0;
-    line-height: 1.1;
-  }
-
-  .section-header h3 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
   .text p,
   .blog p,
-  .work p,
   .twitter p,
   .blog--featured p {
     font-size: 19px;
@@ -376,18 +390,6 @@ a.footnote {
   .twitter p {
     font-size: 12px;
     line-height: 16px;
-  }
-
-  .work p {
-    font-size: 15px;
-    line-height: 20px;
-  }
-}
-
-@media (min-width: 992px) {
-  .work p {
-    font-size: 17px;
-    line-height: 22px;
   }
 }
 
