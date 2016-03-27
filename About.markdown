@@ -3,7 +3,7 @@ title: About
 permalink: /about/
 layout: announcement
 background-image:
-    img: "../assets/img/page/index/spaceX.jpg"
+    img: "../assets/img/page/index/spacex.jpg"
     photographer: SpaceX | Unsplash
     url: https://unsplash.com/spacex
 button:
