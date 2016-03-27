@@ -4,8 +4,8 @@ permalink: contact/success/
 layout: announcement
 background-image:
     img: "../../assets/img/page/index/success.jpg"
-    photographer: Atlas Green | Unsplash
-    url: https://unsplash.com/atlas_green
+    photographer: Austin Schmid | Unsplash
+    url: https://unsplash.com/schmidy
 button:
     - name: Homepage
       link: /
