@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+  <style>
+    .one-picture {
+      background: url("{{page.background-image}}") no-repeat center;
+  </style>
+  <div class="one-picture">
+    <div class="inner">
+      <h1>{{page.title}}</h1>
+      {{content}}
+      <div class="one-picture--btn-frame">
+        {% for button in page.button %}<a href="{{button.link}}" class="btn btn-default btn-standart btn-see-through btn-one-picture">{{button.name}}</a>{% endfor %}
+      </div>
+    </div>
+
+    <div class="ending">
+      {% include footer.html %}
+      {% include copyright.html %}
+    </div>
+  </div>
+</body>
+</html>
