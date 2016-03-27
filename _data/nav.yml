@@ -2,23 +2,23 @@ footer_navs:
   - name: Home
     link: /
   - name: About
-    link: /about
+    link: /about/
   - name: Work
-    link: /work
+    link: /work/
   - name: Blog
-    link: /blog
+    link: /blog/
   - name: Contact
-    link: /contact
-  - name: Impressum
-    link: /impressum 
+    link: /contact/
+  - name: Imprint
+    link: /imprint/
 
 full:
   nav_1:
     name: About
-    link: /about
+    link: /about/
   nav_2:
     name: Blog
-    link: /blog
+    link: /blog/
   nav_3:
     name: #just BK Logo
     link: /
@@ -30,11 +30,11 @@ full:
     link: #already saved for dropdown
   dropdowns:
     - name: Contact
-      link: /contact
+      link: /contact/
       target: extern
       scrolling: false
-    - name: Impressum
-      link: /impressum/
+    - name: Imprint
+      link: /imprint/
       target: intern
       scrolling: true
 
@@ -45,11 +45,11 @@ mobile:
     name: #just logo
   nav_2:
     symbol: /assets/img/site/blog.svg
-    link: /blog
+    link: /blog/
     name: Blog
   nav_3:
     symbol: /assets/img/site/work.svg
-    link: /work
+    link: /work/
     name: Work
   nav_4:
     symbol: /assets/img/site/more.svg
@@ -60,6 +60,6 @@ mobile:
       link: /about/
     - name: Contact
       link: /contact/
-    - name: Impressum
+    - name: Imprint
       link: /impressum/
 

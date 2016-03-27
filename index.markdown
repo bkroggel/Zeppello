@@ -29,11 +29,11 @@ full:
     link: #already saved for dropdown
   dropdowns:
     - name: Contact
-      link: "/contact"
+      link: "/contact/"
       target: intern
       scrolling: false
-    - name: Impressum
-      link: /impressum/
+    - name: Imprint
+      link: /imprint/
       target: intern
       scrolling: false
 
@@ -60,9 +60,9 @@ mobile:
       target: intern
       scrolling: true
     - name: Contact
-      link: /contact
-    - name: Impressum
-      link: /impressum/
+      link: /contact/
+    - name: Imprint
+      link: /imprint/
 ---
 
 Hallo zusammen, Herzlich Willkommen und wie es der Beginn eines neuen Jahres wohl nahe legt: Ein angenehmes und hoffentlich erfolgreiches *2016*.
