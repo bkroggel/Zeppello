@@ -1,7 +1,7 @@
 ---
 title: Success
 permalink: contact/success/
-layout: announcement_new
+layout: announcement
 background-image:
     img: "../../assets/img/page/index/success.jpg"
     photographer: Atlas Green | Unsplash
@@ -11,6 +11,8 @@ button:
       link: /
     - name: Contact
       link: /contact/
+    - name: Twitter
+      link: https://twitter.com/derKroggel
 ---
 You successfully reached out to me and I am sure I will check in with you in the next couple of hours.  
 I totally apreciate that you spent some time on my site and thought about the words you could put together to tell me what is on your mind.  
