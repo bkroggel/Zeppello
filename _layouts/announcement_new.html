@@ -6,7 +6,8 @@
 <body>
   <style>
     .one-picture:before {
-      background: url("{{page.background-image}}") no-repeat center;
+      background: url("{{page.background-image.img}}") no-repeat center;
+      background-size: cover;
   </style>
   <div class="one-picture">
     <div class="inner">
@@ -19,6 +20,9 @@
 
     <div class="ending">
       {% include footer.html %}
+      <div class="photographer">
+      <a href="{{page.background-image.url}}" target="_blank">picture by {{page.background-image.photographer}}</a>
+      </div>
       {% include copyright.html %}
     </div>
   </div>

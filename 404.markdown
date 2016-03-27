@@ -2,7 +2,10 @@
 title: 404
 permalink: /404.html
 layout: announcement_new
-background-image: "../assets/img/page/index/404.jpg"
+background-image:
+    img: "../assets/img/page/index/404.jpg"
+    photographer: Atlas Green | Unsplash
+    url: https://unsplash.com/atlas_green
 button:
     - name: Homepage
       link: /
