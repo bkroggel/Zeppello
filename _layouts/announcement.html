@@ -5,9 +5,19 @@
 
 <body>
   <style>
-    .one-picture:before {
+    .one-picture {
       background: url("{{page.background-image.img}}") no-repeat center;
       background-size: cover;
+    }
+    @media(min-width:768px) {
+      .one-picture {
+        background: none;
+      }
+      .one-picture:before {
+        background: url("{{page.background-image.img}}") no-repeat center;
+        background-size: cover;
+      }
+    }
   </style>
   <div class="one-picture">
     <div class="inner">

@@ -1,17 +1,24 @@
-.one-picture:before {
-  content:"";
-  //background: url("../img/page/index/404.jpg") no-repeat center;
-  //background-size: cover;
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  z-index: -1;
-  overflow: hidden;
-  //filter: grayscale(50%) blur(2px) brightness(140%);
-  //-webkit-filter: grayscale(50%) blur(2px) brightness(140%);
+
+.one-picture {
+  &:before {
+    display: none;
+  }
   @media(min-width: 768px){
-    width: calc(100% - 30px);
-    height: calc(100vh - 30px);
+    &:before {
+      display: block;
+      content:"";
+      //background: url("../img/page/index/404.jpg") no-repeat center;
+      //background-size: cover;
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      z-index: -1;
+      overflow: hidden;
+      //filter: grayscale(50%) blur(2px) brightness(140%);
+      //-webkit-filter: grayscale(50%) blur(2px) brightness(140%);
+      width: calc(100% - 30px);
+      height: calc(100vh - 30px);
+    }
   }
 }
 
