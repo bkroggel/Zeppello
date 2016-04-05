@@ -1,4 +1,4 @@
-/* ==========================================================================
+  /* ==========================================================================
    1. SINGLESCROLLING PAGE
    ========================================================================== */
 
@@ -7,8 +7,6 @@
 
 .big-picture {
   /*background: rgb(49, 54, 50);*/
-  background: url(../img/page/index/pexels.jpg) no-repeat center;
-  background-size: cover;
   width: 100%;
   padding: 0;
   /*height: 700px;*/
@@ -16,6 +14,17 @@
   overflow: hidden;
   display: table;
   position: relative;
+  background: rgba(0,0,0,0.5);
+
+}
+
+.big-picture:before {
+  /*background: rgb(49, 54, 50);*/
+  content:"";
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .big-picture .vertical-fit {
