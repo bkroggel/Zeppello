@@ -8,8 +8,8 @@ big_picture:
   name_background:
   custom_name: "#EBC46E" #set name_background to "custom"
 header:
-  first_line: Happy
-  second_line: Easter
+  first_line: Have a
+  second_line: nice day
 
 full:
   nav_1:
