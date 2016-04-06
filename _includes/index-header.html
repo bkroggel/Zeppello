@@ -42,10 +42,14 @@
           </g>
         </g>
       </svg>
-      <!-- <div class="header-frame">
-        <h1>webdeveloper<span class="hidden-xs"> | </span><span class="hidden-sm hidden-md hidden-lg"><br></span>blogger<span class="hidden-xs"> | </span><span class="hidden-sm hidden-md hidden-lg"><br></span>student</h1>
-      </div> -->
-
+      <div class="intro">
+        <h1>
+          {{page.intro.text}}
+        </h1>
+        <div class="one-picture--btn-frame">
+          {% for button in page.intro.button %}<a href="{{button.url}}" class="btn btn-default btn-standart btn-see-through btn-big-picture">{{button.name}}</a>{% endfor %}
+        </div>
+      </div>
     </div>
     <!-- {% include santaclaus.html %} -->
     <div class="photographer">

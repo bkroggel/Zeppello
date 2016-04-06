@@ -38,6 +38,31 @@
   }
 }
 
+.big-picture .intro {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
+  @media(min-width: 992px){
+    width: 700px;
+    margin: 0;
+  }
+  .btn-big-picture {
+    border-color: white;
+    color: white;
+    margin: 15px 5px 0;
+    &:first-of-type {
+      margin-left: 0;
+    }
+    &:last-of-type {
+      margin-right: 0;
+    }
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+}
+
 .big-picture svg {
   fill: white;
   overflow: visible; 

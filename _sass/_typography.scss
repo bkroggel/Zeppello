@@ -51,14 +51,10 @@
 }
 
 .big-picture h1 {
-  font-family: $primary-nav-font;
-  text-transform: uppercase;
-  font-size: 25px;
-  font-weight: 700;
+  font-family: $readable;
+  font-size: 23px;
+  font-weight: 400;
   color: white;
-  display: table;
-  margin: 0 auto;
-  line-height: 30px;
   @media (min-width: 768px) {
     margin: 0;
     line-height: 1.1;

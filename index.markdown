@@ -63,6 +63,14 @@ mobile:
       link: /contact/
     - name: Imprint
       link: /imprint/
+
+intro: 
+  text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  button:
+    - name: Contact
+      url: www.bastiankroggel.com/contact
+    - name: Twitter
+      url: https://twitter.com/derKroggel
 ---
 
 Hallo zusammen, Herzlich Willkommen und wie es der Beginn eines neuen Jahres wohl nahe legt: Ein angenehmes und hoffentlich erfolgreiches *2016*.
