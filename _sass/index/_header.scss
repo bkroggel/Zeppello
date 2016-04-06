@@ -32,6 +32,10 @@
   height: 100%;
   display: table-cell;
   vertical-align: middle;
+  @media(min-width: 992px){
+    text-align: left;
+    padding-left: 50px;
+  }
 }
 
 .big-picture svg {
