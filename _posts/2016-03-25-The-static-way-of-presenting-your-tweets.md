@@ -145,7 +145,7 @@ The second code block highlights the elements that will contain just one post at
 
 After picking the Tweets with the introduced Twitter-Post-Fetcher and providing a short description about how to set up a html scaffolding around the project, it is now up to the individual to create a unique twitter widget with some css code.
 
-**Let's wrap this up:**  
+## Let's wrap this up:  
 Check out the [Twitter-Post-Fetcher Website](http://jasonmayes.com/projects/twitterApi/), take a look at the [GitHub Repo](https://github.com/jasonmayes/Twitter-Post-Fetcher) and of course don't forget to thank [Jason Mayes](https://twitter.com/jason_mayes) for his awesome work. If you are interested in a javascript approach that won't need you to tinker around with a server side setup or you are looking for a opportunity to show your tweets on a static websites (Github Pages Users, wherer are you?) just go ahead and set up your own feed right on your website.
 
 Last but not least - I would love to hear from you. If there are any questions or some feedback you would like to share with me, feel free to send me a message via my [contact page](http://www.bastiankroggel.com/contact/).
