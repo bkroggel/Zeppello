@@ -291,10 +291,16 @@ p.timePosted {
 .author-area a,
 .about .text a,
 .twitter .tweet a {
-  color: rgb(199, 37, 78);
+  color: black;
+  border-bottom: 1px solid rgba(49,49,49,0.5);
   &:visited {
-    color: rgb(199, 37, 78);
+    color: black;
+    text-decoration: none;
   }
+}
+
+.author-area .description a {
+  color: rgba(109, 109, 109, .8);
 }
 
 .blog-posts p a,
@@ -302,9 +308,12 @@ p.timePosted {
 .about .text a,
 .twitter .tweet a {
   &:hover,
-  &:active {
-    color: rgb(110, 110, 110);
+  &:active,
+  &:focus {
+    color: rgb(180,7,62);
+    border-color: rgb(180,7,62);
     text-decoration: none;
+    transition: all .2s;
   }
 }
 
@@ -367,6 +376,7 @@ a.footnote {
   &:hover {
     background-color: black;
     color: white;
+    border-color: black;
     -webkit-transition: all 0.2s ease-in-out; 
     -moz-transition: all 0.2s ease-in-out; 
     -o-transition: all 0.2s ease-in-out; 
