@@ -65,7 +65,7 @@ mobile:
       link: /imprint/
 
 intro: 
-  text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  text: Corporate Management &amp; Economics student at Zeppelin University on the shores of Lake Constance. Besides that a tech enthusiast interested in all things concerning great design, millennial and born digital native. Proud member of the <a href='http://codecats.io'>CodeCats</a>, an initiative attempting to excite pupils and students to enter the world of code.
   button:
     - name: Contact
       url: /contact/

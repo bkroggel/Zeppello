@@ -52,12 +52,24 @@
 
 .big-picture h1 {
   font-family: $primary-text-font;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   color: white;
+  line-height: 1.4;
   @media (min-width: 768px) {
     margin: 0;
-    line-height: 1.4;
+    font-size: 20px;
+  }
+  a {
+    color: white;
+    border-bottom: 1px solid white;
+    &:hover,
+    &:active,
+    &:focus{
+      color: white;
+      border-bottom: 1px solid white;
+      text-decoration: none;
+    }
   }
 }
 
