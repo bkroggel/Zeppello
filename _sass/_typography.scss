@@ -303,6 +303,11 @@ p.timePosted {
   color: rgba(109, 109, 109, .8);
 }
 
+.twitter .tweet a{
+  font-weight: 400;
+  border: none;
+}
+
 .blog-posts p a,
 .author-area a,
 .about .text a,
@@ -310,8 +315,8 @@ p.timePosted {
   &:hover,
   &:active,
   &:focus {
-    color: rgb(180,7,62);
-    border-color: rgb(180,7,62);
+    color: $highlight-color;
+    border-color: $highlight-color;
     text-decoration: none;
     transition: all .2s;
   }
