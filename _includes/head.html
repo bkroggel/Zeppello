@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="{% if page.theme-color %}{{page.theme-color}}{% else %}{{ site.theme-color }}{% endif %}">
   <title>{% if page.title %}Bastian Kroggel | {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.content %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{% if page.title == "index" %}Bastian Kroggel | {{page.intro.text | strip_html | strip_newlines }}{% elsif page.layout == "work" or page.layout == "by_tag" or page.title == "Blog" %}{{ page.introduction | strip_html | strip_newlines | truncate: 190 }}{% elsif page.showcase %}{{ page.showcase | strip_html | strip_newlines | truncate: 190 }}{% elsif page.content %}{{ page.content | strip_html | strip_newlines | truncate: 190 }}{% else %}{{ site.description }}{% endif %}">
   <link rel="shortcut icon" type="image/png" href="{% if page.favicon %}{{ page.favicon }}{% else %}{{ site.favicon }}{% endif %}">
   <link rel="icon" sizes="192x192" href="img/logo_192_192.png">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">

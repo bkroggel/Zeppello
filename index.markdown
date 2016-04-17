@@ -1,4 +1,5 @@
 ---
+title: index
 layout: landing
 big_picture:
   pic: green.jpg
