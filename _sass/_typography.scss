@@ -300,8 +300,7 @@ p.timePosted {
   }
 }
 
-.blog-posts--content:not(.blog-posts--overview-content)>p:nth-of-type(1)::first-letter,
-{
+.blog-posts--content:not(.blog-posts--overview-content)>p:nth-of-type(1)::first-letter {
     font-size: 60px;
     line-height: 60px;
     float: left;
@@ -324,6 +323,10 @@ p.timePosted {
     color: black;
     text-decoration: none;
   }
+}
+
+sup>a.footnote {
+  border: none;
 }
 
 .author-area .description a {
