@@ -300,6 +300,20 @@ p.timePosted {
   }
 }
 
+.blog-posts--content:not(.blog-posts--overview-content)>p:nth-of-type(1)::first-letter,
+{
+    font-size: 60px;
+    line-height: 60px;
+    float: left;
+    margin: 0 5px 0 -6px;
+    font-weight: 700;
+    font-family: $primary-text-font;
+    @media (min-width: 768px) {
+      font-size: 71px;
+      line-height: 66px;
+    }
+  }
+
 .blog-posts p a,
 .author-area a,
 .about .text a,

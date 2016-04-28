@@ -7,14 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-::selection {
-  background-color: $main-color;
-  color: white;
-}
-::-moz-selection {
-  background-color: $main-color;
-  color: white;
-}
+// ::selection {
+//   background-color: $main-color;
+//   color: white;
+// }
+// ::-moz-selection {
+//   background-color: $main-color;
+//   color: white;
+// }
 
 .row {
   padding: 0;
