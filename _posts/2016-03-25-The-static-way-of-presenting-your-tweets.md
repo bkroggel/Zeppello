@@ -7,7 +7,7 @@ showcase: While twitter blocked the old ways of presenting your tweets on your w
 
 Let's start this introduction about a sweet little workaround for a javascript based [twitter](https://twitter.com) widget with a big *hug* and a *Happy Birthday!* (…sorry, I am a little late to the 10th anniversary party)[^1] to the whole twitter team that created such a tremendously useful service, where people can connect and share their thougts in a short but very effective way.
 
-Sure. Twitter has it up and downsides like any other platform and while a lot of devs are upset about a restrictive API policy (just think about the [token limit](https://dev.twitter.com/faq/rules-and-policies) for 3rd party twitter clients) there is a big community of creative heads that try to find the right solution for nearly any concern you might be possible to think of.
+Sure. Twitter has it up and downsides like any other platform and while <span>a lot of devs are upset about a restrictive API policy</span>{:.highlighted} (just think about the [token limit](https://dev.twitter.com/faq/rules-and-policies) for 3rd party twitter clients) there is a big community of creative heads that try to find the right solution for nearly any concern you might be possible to think of.
 
 While working on my little personal website I came up with the idea, that a short excerpt of my twitter feed at the bottom of page might be a design and information element that would complement my site in a nice way.
 
