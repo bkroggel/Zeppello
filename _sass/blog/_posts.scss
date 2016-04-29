@@ -16,7 +16,7 @@
 .blog-posts ol,
 .blog-posts ul,
 h1.posts-title,
-.footnotes ol,
+.footnotes,
 .highlight,
 .author-area {
   width: 90%;
@@ -26,6 +26,14 @@ h1.posts-title,
     width: 700px;
   }
 }
+
+.footnotes,
+.footnotes ol,
+.footnotes ol li p{
+   @media(min-width: 768px){
+     width: 620px;
+   } 
+ }
 
 .blog-posts--content {
   clear: both;
@@ -132,6 +140,19 @@ pre {
       width: 45%;
       margin: 20px -20% 20px 30px;
       float: right;
+    }
+  }
+  .info {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 5%;
+    margin: 45px auto;
+    width: 100%;
+    @media(min-width:768px){
+      padding: 1.5%;
+      width: 700px;
+    }
+    +.info {
+      margin: -45px auto 45px;
     }
   }
 }
