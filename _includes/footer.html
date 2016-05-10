@@ -1,5 +1,16 @@
 <section class="footer">
   <div class="footer--main">
+    <div class="footer-frame">
+      {% if site.twitter_username %}
+      <a class="icon-social" href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i></a>
+      {% endif %}
+      {% if site.codepen_username %}
+      <a class="icon-social" href="http://codepen.io/{{ site.codepen_username }}/"><i class="fa fa-codepen"></i></a>
+      {% endif %}
+      {% if site.github_username %}
+      <a class="icon-social" href="https://github.com/{{ site.github_username }}"><i class="fa fa-github"></i></a>
+      {% endif %}
+    </div>
     <div class="footer--logo">
       <svg version="1.1" x="0px" y="0px" viewBox="0 0 502.569 35.821" width="100%" enable-background="new 0 0 502.569 35.821" xml:space="preserve">
         <g>
@@ -22,24 +33,11 @@
           </g>
         </g>
       </svg>
-    </div>
-    <div class="footer-frame">
-      {% if site.twitter_username %}
-      <a class="icon-social" href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter"></i></a>
-      {% endif %}
-      {% if site.github_username %}
-      <a class="icon-social" href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github"></i></a>
-      {% endif %}
-    </div> 
-      
+    </div>  
     <div class="footer--navigation">
       <ul class="footer--nav">
       {% for footer_nav in site.data.nav.footer_navs %}<li><a href="{{footer_nav.link}}">{{footer_nav.name}}</a></li>{% endfor %}
       </ul>
     </div>
-
-    
-
-    
   </div>
 </section>
