@@ -24,7 +24,10 @@
 .one-picture>.inner {
   position: relative;
   margin: 0 50px;
-  padding-top: 50px;
+  padding-top: 125px;
+  @media(min-width: 992px){
+    padding-top: 75px;
+  }
   h1 {
     margin: 0;
     padding-bottom: 15px;
@@ -67,7 +70,7 @@
 }
 
 .one-picture>.ending {
-  margin-top: 150px;
+  margin-top: 100px;
   @media(min-width: 768px) {
     margin: 0 65px;
     bottom: 30px;
@@ -77,6 +80,7 @@
   }
   .photographer {
     text-align: center;
+    margin-bottom: 7px;
     a:hover,
     a:visited,
     a:focus {
@@ -85,6 +89,7 @@
   }
   svg {
     fill: white;
+    margin-bottom: 0;
   }
   .copyright {
     background: none;
@@ -97,10 +102,21 @@
       margin-bottom: 10px;
     }
   }
+  .footer--navigation{
+    margin: 0;
+    width: auto;
+    border-top: none;
+  }
+  ul.footer--nav{
+    padding-top: 0;
+    margin: 0;
+  }
   .footer--nav,
   a,
-  h1 {
+  h1,
+  .icon-social {
     color: white;
+    opacity: 1;
   }
   @media (min-width: 768px) {
     .footer--main,
