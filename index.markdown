@@ -2,10 +2,10 @@
 title: index
 layout: landing
 big_picture:
-  pic: green.jpg
+  pic: sea.jpg
   by:
-    photographer: Claudel Rheault | Unsplash
-    url: https://unsplash.com/claudelrheault
+    photographer: Gabriel Santiago | Unsplash
+    url: https://unsplash.com/@gabrielssantiago
   name_background:
   custom_name: "#EBC46E" #set name_background to "custom"
 header:
