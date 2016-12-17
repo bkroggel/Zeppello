@@ -2,10 +2,10 @@
 title: index
 layout: landing
 big_picture:
-  pic: sea.jpg
+  pic: forest_2016.jpg
   by:
-    photographer: Gabriel Santiago | Unsplash
-    url: https://unsplash.com/@gabrielssantiago
+    photographer: Daniil Silantev | Unsplash
+    url: https://unsplash.com/@betagamma
   name_background:
   custom_name: "#EBC46E" #set name_background to "custom"
 header:
