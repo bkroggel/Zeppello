@@ -2,10 +2,10 @@
 title: index
 layout: landing
 big_picture:
-  pic: forest_2016.jpg
+  pic: bodensee.jpg
   by:
-    photographer: Daniil Silantev | Unsplash
-    url: https://unsplash.com/@betagamma
+    photographer: Brit Kellerhoff | Unsplash
+    url: https://unsplash.com/@britbee
   name_background:
   custom_name: "#EBC46E" #set name_background to "custom"
 header:
